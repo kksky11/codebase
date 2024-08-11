@@ -1,0 +1,16 @@
+{
+  "heading"       : "Get Your Credit Score & Report for FREE with monthly updates",
+  "existingUser" : "Existing User",
+  "whatsapp" : {
+    "line1":"Never miss any updates!",
+    "line2":"Monitor your credit score,",
+    "line3":"get best offers & more",
+    "line4":"Enable Now!"
+  },
+  "whatsappConsent" : {
+    "line1":"We are now on WhatsApp!",
+    "line2":"Stay updated on credit score trends, special loan offers & much more",
+    "line3":"Enable Now! ",
+    "line4":"Whatsapp updates enabled successfully!"
+  }
+}

@@ -1,0 +1,90 @@
+{
+    "common": {
+        "save": "सुरक्षित करें"
+    },
+    "myProfile": {
+        "heading": "मेरी प्रोफाइल",
+        "personalDetails": {
+            "heading": "व्यक्तिगत जानकारी",
+            "form": {
+                "name": {
+                    "label": "आपका नाम",
+                    "placeHolder": "",
+                    "error": "",
+                    "title": {
+                        "mr": "श्री",
+                        "ms": "श्रीमती"
+                    }
+                },
+                "birthday": {
+                    "label": "जन्मतिथि",
+                    "placeHolder": "",
+                    "error": " कृपया वैध जन्म तारीख दर्ज करें"
+                },
+                "email": {
+                    "label":"ईमेल पता",
+                    "placeHolder": "उदाहरण. example@xyz.com",
+                    "error": ""
+                },
+                "mobile": {
+                    "label": "मोबाइल न०",
+                    "placeHolder": "",
+                    "error": ""
+                },
+                "address": {
+                    "label": "पता",
+                    "placeHolder": " उदाहरण: H.no 121, Railway colony, Gurgaon",
+                    "error": "",
+                    "customMessage": "कृपया पता दर्ज करें"
+                },
+                "pincode": {
+                    "label": "पिनकोड",
+                    "placeHolder": " उदाहरण. 112233",
+                    "error": "" 
+                },
+                "city": {
+                    "label": "शहर",
+                    "placeHolder": "कृपया शहर दर्ज करें",
+                    "error": ""
+                },
+                "pan": {
+                    "label": "पैन कार्ड",
+                    "placeHolder": " उदाहरण: ABCDE1234F",
+                    "error": "" 
+                }
+            }
+        },
+        "employerDetails": {
+            "heading": "नियोक्ता/ कंपनी का नाम",
+            "form": {
+                "employmentType": {
+                    "label": "रोज़गार प्रकार",
+                    "placeHolder": "कृपया रोज़गार प्रकार चुनें",
+                    "helperText": "रोज़गार प्रकार"
+                },
+                "professionType": {
+                    "label": "पेशा चुनें",
+                    "placeHolder": "पेशे के प्रकार"
+                },
+                "employerName": {
+                    "label": "नियोक्ता/ कंपनी का नाम",
+                    "placeHolder": " नियोक्ता/ कंपनी का नाम"
+                },
+                "businessType": {
+                    "label": "व्यवसाय प्रकार",
+                    "placeHolder": "व्यवसाय प्रकार"
+                },
+                "monthlyIncome": {
+                    "label": "मासिक आय",
+                    "placeHolder": "मासिक आय",
+                    "error": "वैध मासिक आय दर्ज करें"
+                },
+                "annualTurnover": {
+                    "label": "वार्षिक टर्नओवर",
+                    "placeHolder": "वार्षिक टर्नओवर",
+                    "error": "वैध वार्षिक आय दर्ज करें"
+                }
+            }
+        }
+    }
+}

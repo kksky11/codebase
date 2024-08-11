@@ -1,0 +1,134 @@
+{
+    "common": {
+        "heading": "FAQs",
+        "step": "Step",
+        "viewAllFAQ": "View all questions"
+    },
+    "topQuestion": {
+        "yourAccount": {
+            "heading": "Getting your Credit Report from Paisabazaar.com",
+            "faqs": {
+                "faq1": {
+                    "ques": "What is the process to get my free credit report from Paisabazaar.com?",
+                    "ans": {
+                        "preceding": "Getting your credit report from Paisabazaar.com is a convenient and hassle free 3 step process that does not take more than 2 minutes. All you have to do is to follow the below 3 steps and your credit report will be generated:",
+                        "item1": {
+                            "part1": "Visit",
+                            "part2": "and click on Get Free Credit Report"
+                        },
+                        "item2": "A form will appear and you need to furnish basic details like Gender, Name, DOB, PAN Card, PIN Code, Email Id and Mobile Number. After entering your mobile number you will receive an OTP. After entering OTP you will be directed to final step.",
+                        "item3": "In the final step you need to provide your occupation details, organization name if you are a salaried individual and monthly income. Click Submit and your free credit report will be generated instantly. Further that, you can Sign In to My Account section of paisabazaar.com to check your monthly credit report updates for free."
+                    }
+                },
+                "faq2": {
+                    "ques": "Why should I check my credit score from Paisabazaar.com?",
+                    "ans": {
+                        "preceding": "There are several reasons to get your credit score from Paisabazaar.com, like:",
+                        "item1": "Your credit report is absolutely free",
+                        "item2": "We provide monthly updates to track your credit score",
+                        "item3": "We provide comprehensive credit analysis to help you understand your credit profile",
+                        "item4": "We provide tips to help you build credit and improve your credit score",
+                        "item5": "We can help you connect with credit bureaus to resolve any errors in your credit report",
+                        "item6": "We give personalized recommendations of loans and credit cards as per your requirements."
+                    }
+                },
+                "faq3": {
+                    "ques": "Will checking my credit report on Paisabazaar.com impact my credit score?",
+                    "ans": "When you check your credit score or access your credit report, from Paisabazaar.com, it is counted as a “soft enquiry.” As a result, your credit score remains unaffected no matter how many times you check it. However, if banks and NBFCs access your report when you apply for a credit product like a credit card or a loan it is seen as a “hard enquiry” and can impact your score. Making a soft enquiry of your credit score once a month is a good practice to keep a check on your credit score."
+                },
+                "faq4": {
+                    "ques": "Will I be charged for my credit report on Paisabazaar.com?",
+                    "ans": "Paisabazaar.com provides your credit report for free along with monthly updates and easy-to-understand report analysis. However, the cost of getting a copy of your credit report directly from a bureau varies from one credit bureau to another. From credit bureaus, you can avail full credit report for free once a year. Other times, it will cost you around Rs 500 per report."
+                },
+                "faq5": {
+                    "ques": "What are the documents required to access my credit report on Paisabazaar.com?",
+                    "ans": {
+                        "preceding": "To get your credit report from Paisabazaar.com for the first time, you will need to provide your personal details such as name, date of birth, PAN, mobile number, email address, PIN code and city. In case we are unable to fetch your credit report, you will have to upload the following documents in your ‘my account’ with Paisabazaar.com:",
+                        "item1": "Proof of Identity",
+                        "item2": "PAN Card",
+                        "item3": "Proof of Address"
+                    }
+                },
+                "faq6": {
+                    "ques": "If I request my credit report through Paisabazaar.com, will my information be secure?",
+                    "ans": "Yes. We are ISO 27001: 2013 certified company, which is an internationally accepted certification for the highest level of customer data security. Also, once your credit report gets generated, it is directly sent on your registered email ID, which no one except you can access as it is password-protected. You can view your credit report even in your ‘my account’ with Paisabazaar.com, which again can be accessed either using Facebook and Google account credentials or an OTP that will be sent on your mobile."
+                },
+                "faq7": {
+                    "ques": "How long does it take to receive my credit score from Paisabazaar.com?",
+                    "ans": "Instantly, provided you have given correct information and have credit history."
+                },
+                "faq8": {
+                    "ques": "How often can I request for an updated credit report in a year from Paisabazaar.com?",
+                    "ans": "You can apply for a credit report any number of times, however, as lenders report your credit information only once a month, you might not observe any change in your credit score before a month has passed between reports. Once you apply for credit report through Paisabazaar.com, you will receive free monthly updates on your credit score, which you can access in the My Account section of Paisabazaar.com. We also send monthly email updates of your credit score for free to help you keep a check on the same."
+                },
+                "faq9": {
+                    "ques": "Why can't I see my score?",
+                    "ans": {
+                        "preceding": "Possible reasons why your report could not be generated are:",
+                        "item1": "1. No credit history: Credit scoring models cannot generate a score without past credit information.",
+                        "item2": "2. Insufficient credit history: If you have a very recent credit history (less than six months), you probably will not have a credit score.",
+                        "item3": "3. Incorrect information: When applying for your credit report, the information you gave did not match with the credit bureau due to which your identity could not be authenticated by our bureau partner. To get past this situation, you can reach out to the respective Bureau on the below mentioned contacts to get the information corrected.",
+                        "item4": "For CIBIL, go the given link and submit an online dispute:",
+                        "item5": "For other bureaus, reach out to them on their respective email addresses as given below:",
+                        "item6": " ",
+                        "item7": "Experian - ",
+                        "item8": "Equifax - ",
+                        "item9": "Highmark - "
+                    }
+                },
+                "faq10": {
+                    "ques": "How can I delete my account from Paisabazaar ?",
+                    "ans": {
+                        "line1": "We strongly advise against deleting your Paisabazaar.com account because it helps you monitor your Credit Score regularly and take informed credit decisions.",
+                        "line2": "On deletion, we will erase your data, unsubscribe you from monthly report refresh and you will not receive any further communications."    
+                    }
+                },
+                "faq11": {
+                    "ques": "How can I resubscribe for my free monthly credit report from Paisabazaar ?",
+                    "ans": "As per your request, you are unsubscribed from monthly free credit reports from Paisabazaar. Experts advise you to track your credit score regularly to ensure the best of financial health and get the best offers on loans and cards."
+                },
+                "faq11Alternate": {
+                    "ques": "How can I unsubscribe my free monthly credit report from Paisabazaar ?",
+                    "ans": {
+                        "line1": "Our experts advise that it is a good practice to keep a check on your Credit Score once a month. Credit score is one of the determining factors for the approval of a loan or credit card application.",
+                        "line2": "On unsubscription, please note that you will still be able to see your past credit report(s) when you login to your Paisabazaar account. We will, however, unsubscribe you from further monthly report refresh and you will not receive any further communications."
+                    }
+                },
+                "faq12": {
+                    "ques": "I have tried all the various steps suggested by you. However, I am still facing certain issues with my credit report on Paisabazaar. What should I do?",
+                    "ans": {
+                        "preceding": "Sometimes, certain issues can be resolved by following these super easy steps: ",
+                        "item1": "1. Always keep your app updated.",
+                        "item2": "2. Clear your cache.",
+                        "item3": "3. Open or log in to our website in a different browser.",
+                        "item4": "4. Try logging out of Paisabazaar and re-login.",
+                        "item5": "Hence we strongly suggest that you try these easy steps and if you're still having trouble, write to us at ",
+                        "item6": ""
+                    }
+                }
+            }
+        },
+        "unsubscribe": {
+            "faqs": {
+                "faq1": {
+                    "ques": "How can I delete my account from Paisabazaar ?",
+                    "ans": {
+                        "line1": "We strongly advise against deleting your Paisabazaar.com account because it helps you monitor your Credit Score regularly and take informed credit decisions.",
+                        "line2": "On deletion, we will erase your data, unsubscribe you from monthly report refresh and you will not receive any further communications."
+                    }
+                },
+                "faq2": {
+                    "ques": "How can I resubscribe for my free monthly credit report from Paisabazaar ?",
+                    "ans": "As per your request, you are unsubscribed from monthly free credit reports from Paisabazaar. Experts advise you to track your credit score regularly to ensure the best of financial health and get the best offers on loans and cards."
+                },
+                "faq3": {
+                    "ques": "How can I unsubscribe my free Monthly Credit Report from Paisabazaar ?",
+                    "ans": {
+                        "line1": "Our experts advise that it is a good practice to keep a check on your Credit Score once a month. Credit score is one of the determining factors for the approval of a loan or credit card application.",
+                        "line2": "On unsubscription, please note that you will still be able to see your past credit report(s) when you login to your Paisabazaar account. We will, however, unsubscribe you from further monthly report refresh and you will not receive any further communications."
+                    }
+                }
+            }
+        }
+    }
+}

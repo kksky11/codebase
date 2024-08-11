@@ -1,0 +1,50 @@
+@import "styles/config.scss";
+.creditCardBanner{
+    margin-bottom: 40px; height: 352px; overflow: hidden;border-radius:$commonBorderRadius; background-color: $whiteColor;box-shadow: 0 2px 19px 0 #EDEDED;
+    display: flex; align-items: center; justify-content:flex-start;
+    .imageContainer{width: 328px; height: 100%; background-color: #ECF1FF; display: flex;align-items: center;justify-content: center;}
+    .infoContainer{ padding:24px; width:calc(100% - 328px);
+        ._LogoTitle{ height: 30px; width: auto;margin-bottom: 8px;
+            img{height: 30px; width: auto;}
+        }
+        ._infoTitle{color: $SecondaryColor;  font-size: 16px;font-weight: 600;letter-spacing: 0;line-height: 24px; margin-bottom: 24px;}
+        ._infoFeatures{ padding:0px; margin: 0px; list-style: none; margin-bottom: 24px;
+            li{color: $SecondaryColor; text-align: left; padding-left: 20px; margin-bottom: 24px;font-size: 14px; line-height: 14px; font-weight: 600; position: relative;
+                &::before{content: url("/images/icons/blue-tick.svg");; position: absolute; left: 0px;} 
+                &:last-child{margin-bottom: 0px;}              
+            }
+        }
+        .buttonContainer{ display: flex; align-items: center; justify-content: space-between;
+            .btn{
+                &.knowMoreBtn{color: $whiteColor; font-size: 16px;font-weight: 600;line-height: 20px;  height: 44px;width: 240px;border-radius: 8px;background: $SecondaryLightColor;}
+                &.whyIsItImportantBtn{display: flex;align-items: center;justify-content: space-between;width: 175px; background: transparent; color: $SecondaryLightColor; font-size: 12px;font-weight: 600;line-height: 18px; text-align: left;}
+            }
+        }
+        .whyImportant{display: none;}
+    }
+}
+
+@media (max-width:767px) {
+    .creditCardBanner{ height: auto; border-radius: 0px; margin-bottom: 16px;
+        .imageContainer{ display: none;}
+        .infoContainer{ width: 100%;padding:24px 16px;
+            ._LogoTitle{ height: 20px;
+                img{ height: 20px;}
+            }
+            ._infoTitle{font-size: 12px;line-height: 18px; margin-bottom: 24px;}
+            ._infoFeatures{
+                li{font-size: 14px;line-height: 18px; font-weight: normal; margin-bottom: 16px;
+                    &::before{}
+                }
+            }
+            .buttonContainer{ flex-direction: column;
+                .btn{
+                    &.knowMoreBtn{ margin-bottom: 16px; width: 100%;}
+                    &.whyIsItImportantBtn{height: 30px;  width: 100%;text-align: center; justify-content: center;
+                        .btn_after_image{margin-left: 6px;}
+                    }
+                }
+            }
+        }
+    }
+}

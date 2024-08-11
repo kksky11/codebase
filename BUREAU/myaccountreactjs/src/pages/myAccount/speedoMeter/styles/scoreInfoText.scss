@@ -1,0 +1,56 @@
+@import "styles/config.scss";
+.scoreInfoContainer{
+    &.noScore{
+        .scoreBandDescription{
+            .question{ text-transform: none;
+                .infoIcon{ display: none;}
+            }
+        }
+    }
+    .scoreBandDescription{display: flex;flex-direction: column;align-items: flex-start;justify-content: center; min-height: 200px;
+        .question{margin:0px 0px 8px; text-transform: capitalize; font-weight: 600;font-size: 20px; line-height: 28px; color: $SecondaryColor;}
+        .description{ text-align: left; font-weight: 600;font-size:14px; line-height:26px; color: $SecondaryColor-7; margin: 0px;}
+    }            
+    .buttonContainer{display: flex;align-items: center;justify-content:flex-end;
+        .separator{margin: 0px 16px; height: 24px; width: 2px; border-left: 1px solid $SecondaryColor-1;
+            &.deskHide{ display: none;}
+            &.mobileHide{ display: block;}
+        }
+        .btn{padding: 0px; height: 24px; background: transparent; color: $SecondaryLightColor;display: flex;align-items: center;justify-content: center;
+            .btn_before_image{margin-right: 4px;}
+            .btn_after_image{margin-left: 4px;}
+            &.scoreTrendBtn{margin-left: 16px; height: 38px; width:133px; background: $SecondaryLightColor-1; border-radius: 6px;
+                .btn_after_image{margin-left: 12px;}
+                .btn_before_image{display: none;}
+            }
+        }
+        
+    }
+}
+@media (max-width:767px) {
+    .scoreInfoContainer{ 
+        &.noScore{margin-top: -16px;
+            .scoreBandDescription{ display: block;min-height: 40px;
+                .question{font-size: 12px;font-weight: 600; line-height: 18px; text-align: center;
+                    .infoIcon{ display: initial; margin-left: 10px;}
+                }
+                .description{display: none;}
+            }
+        }
+        .scoreBandDescription{display: none;}
+        .buttonContainer{min-height: 42px; justify-content: space-around; border-bottom: 1px solid $SecondaryColor-1; border-top: 1px solid $SecondaryColor-1;
+           
+            .separator{margin: 0px 2px; 
+                &.deskHide{ display: block;}
+                &.mobileHide{ display: none;}
+            }
+            .btn{font-size: 12px; line-height: 18px;padding: 0px; min-width: 140px;
+                &.scoreTrendBtn{ background: transparent;margin-left:0px;
+                    .btn_after_image{display: none;}
+                    .btn_before_image{display: block;}
+                }
+            }
+        }
+        &.cardBanner{ display: block;}
+    }
+}

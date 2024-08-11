@@ -1,0 +1,59 @@
+@import "styles/config.scss";
+.RectificationModal{width:100%;
+    .noHeader{background: $lightBackground;}  
+    .modalWrapper{
+        .modalBody{max-height:100vh;}
+    }
+    ._LogoTitle{ height: 18px; width: auto;margin-bottom: 8px;
+        img{height: 18px; width: auto;}
+    }
+    ._infoLogoTitle{color: $SecondaryColor;  font-size: 14px;line-height: 18px; font-weight: 600; margin-bottom: 12px;}
+    ._infoFeatures{ padding:0px; margin: 0px; list-style: none; margin-bottom: 24px;
+        li{color: $SecondaryColor;  text-align: left; padding-left: 18px; margin-bottom: 8px;font-size: 12px; line-height: 18px; font-weight: normal; position: relative;
+            &::before{content:url("/images/icons/red-tick.svg"); position: absolute; left: 0px; top: 2px;}           
+        }
+    }
+    .offerValidStrip{ position: relative; margin-bottom: 8px;
+        .infoText{margin: 0 auto; width: 175px; background-color: #EEEFFE; border-radius: 6px; border: 1px dashed $SecondaryLightColor; padding: 2px 6px; text-align: center; text-transform: uppercase; font-size: 8px;font-weight: bold; line-height: 18px; color:$SecondaryLightColor;
+            &::before,
+            &::after{content:""; position: absolute;left: 0px; top: 50%;height: 1px; width: 36px; background: $SecondaryColor-1;} 
+            &::after{right: 0px; left: auto;}          
+        } 
+       
+    }
+    .serviceSection{ margin-bottom:16px;
+        .serviceList{ padding:8px 0px; display: flex; align-items: flex-start; justify-content: space-between; border-bottom:1px solid $SecondaryColor-1;
+            .serviceName{font-size: 14px;font-weight: 600;line-height: 22px;}
+            .serviceAmount{ display: flex; align-items: center; justify-content: space-between;
+                .offerPrice{font-size: 14px;font-weight: bold;line-height: 22px;}
+                .regularPrice{color:$SecondaryColor-7; margin-right:6px; font-size: 12px;font-weight: 600; line-height: 18px;text-decoration: line-through;}
+            }
+            &.totalPrice{border-bottom:0px; padding-bottom: 0px;
+                .serviceName{
+                    ._link{ color: $SecondaryLightColor; font-size: 10px; line-height: 18px;} 
+                }
+                .serviceAmount{ flex-direction:column; align-items:flex-end;
+                    .regularPrice{ margin-right:0px;}
+                }
+            }
+            &.recommended{
+                .serviceName{font-size: 12px;font-weight: bold;line-height: 18px;
+                    .discount{ color:$greenColor;}
+                } 
+                .serviceAmount{  position:relative; padding-top: 14px;
+                 ._label{position:absolute; right:0px; top:0px; height: 14px;width: 76px;border-radius: 2px;background-color: #D90368; color:$whiteColor;font-size: 8px;font-weight: bold;line-height: 8px; display:flex; align-items:center; justify-content:center;}
+                }
+            }
+        }
+    }
+    .buttonContainer{ text-align: center;
+        .btn{ margin-bottom: 12px;
+            &.continueToPayment{color: $whiteColor; font-size: 14px;font-weight: 600;line-height: 18px;  height: 38px;width: 100%;border-radius: 8px;background: $SecondaryLightColor;}
+         }
+         ._agreeLink{font-size: 10px; line-height: 18px; color: $SecondaryColor-7;
+             a{color: $SecondaryLightColor;
+                 &:hover{text-decoration: none;}
+             }
+         }
+    }
+}

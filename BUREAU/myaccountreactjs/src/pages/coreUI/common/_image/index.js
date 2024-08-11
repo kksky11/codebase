@@ -1,0 +1,29 @@
+import React, { Fragment }      from "react";
+import PropTypes                from "prop-types";
+import LazyLoad                 from 'react-lazyload';
+import './Image.scss';  
+
+function Image (props) {
+    const {height="auto", width="auto", lazy=true, offset=10, className,src, alt,...rest } = props;
+    const onerror=(e)=>{
+        if(e.type === "error"){e.target.src = "src/images/icons/NoImageFound.jpg"; e.target.alt={src}}
+    };
+    return(
+            <Fragment>
+                {lazy 
+                    ? <LazyLoad offset={offset}>
+                        <img height={height} width={width} src={src} className={`${className ? className : ""} img`} alt={alt ? alt : "_img"}  onError={(e)=>onerror(e)} {...rest}/> 
+                    </LazyLoad>
+                    : <img height={height} width={width} src={src} className={`${className ? className : ""} img`} alt={alt ? alt : "_img"}  onError={(e)=>onerror(e)} {...rest}/> 
+                }
+           </Fragment>
+    );
+}
+
+Image.propTypes = {
+    className               : PropTypes.string,
+    src                     : PropTypes.string,
+    alt                     : PropTypes.string
+};
+
+export default Image;

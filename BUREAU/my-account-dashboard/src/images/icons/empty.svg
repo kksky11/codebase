@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="109px" height="118px" viewBox="0 0 109 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>A83429D1-11FF-4FED-8650-DA385CF8B659</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="13.0708554%" x2="40.1757761%" y2="67.7413175%" id="linearGradient-1">
+            <stop stop-color="#95ABC2" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M7.51363636,0 L7.52559441,0 L7.52559441,0 C7.52559441,4.14966678 4.16162482,7.51363636 0.011958042,7.51363636 L0,7.51363636 L0,7.51363636 C-5.08187614e-16,3.36396958 3.36396958,7.62281421e-16 7.51363636,0 Z" id="path-2"></path>
+    </defs>
+    <g id="App-Dashbaord" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03-MF-Dashboard-Txn-in-process-Blank" transform="translate(-126.000000, -118.000000)">
+            <g id="Blank-Trxn-in-process" transform="translate(126.000000, 116.000000)">
+                <polygon id="Rectangle-27-Copy-2" fill="#8E99A3" points="49.1681641 45.0821652 93.9370357 57.383713 93.9370357 100.428325 49.1681641 81.1415635"></polygon>
+                <polygon id="Rectangle-27-Copy-3" fill="#A0AAB5" transform="translate(30.936980, 72.848479) scale(-1, 1) translate(-30.936980, -72.848479) " points="12.6545455 45.1243595 49.2194141 55.341944 49.2194141 100.572599 12.6545455 80.9952361"></polygon>
+                <g id="fly" transform="translate(37.090909, 0.000000)">
+                    <path d="M35.6784826,97.3449509 C25.574771,94.3873891 7.83042587,94.6513811 1.16667238,77.3663052 C-4.94059791,61.5246883 17.5884808,46.2779707 23.8915515,52.9531812 C28.3579066,57.6832345 22.6330766,64.504621 14.6888341,63.738328 C5.74697618,62.8758061 0.461558113,54.8791363 2.22466083,46.2779707 C5.7220063,29.2164308 32.6108965,17.928106 33.7444941,17.1417705" id="path" stroke="url(#linearGradient-1)" stroke-width="3" stroke-dasharray="6,7"></path>
+                    <g id="bee" transform="translate(25.309091, 0.000000)">
+                        <path d="M7.14187739,13.3009836 C10.0464928,10.1571548 11.4988005,7.78442757 11.4988005,6.18280179 C11.4988005,3.78036313 9.54813956,1.83280179 7.14187739,1.83280179 C4.73561521,1.83280179 2.78495431,3.78036313 2.78495431,6.18280179 C2.78495431,7.78442757 4.237262,10.1571548 7.14187739,13.3009836 Z" id="Oval" fill="#CED8E5" opacity="0.400000006" transform="translate(7.141877, 7.566893) rotate(-45.000000) translate(-7.141877, -7.566893) "></path>
+                        <path d="M18.232227,23.9782563 C21.1368424,20.8344276 22.5891501,18.4617003 22.5891501,16.8600745 C22.5891501,14.4576359 20.6384892,12.5100745 18.232227,12.5100745 C15.8259649,12.5100745 13.875304,14.4576359 13.875304,16.8600745 C13.875304,18.4617003 15.3276117,20.8344276 18.232227,23.9782563 Z" id="Oval-Copy" fill="#CED8E5" opacity="0.400000006" transform="translate(18.232227, 18.244165) scale(-1, -1) rotate(-45.000000) translate(-18.232227, -18.244165) "></path>
+                        <g id="Rectangle-4" transform="translate(9.109930, 8.740909)">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="Mask" fill="#A8B7C5" xlink:href="#path-2"></use>
+                            <polygon fill="#DDE5F2" mask="url(#mask-3)" transform="translate(2.178462, 4.745455) rotate(-45.000000) translate(-2.178462, -4.745455) " points="1.58433566 0.395454545 2.77258741 0.395454545 2.77258741 9.09545455 1.58433566 9.09545455"></polygon>
+                            <polygon id="Rectangle-4-Copy" fill="#DDE5F2" mask="url(#mask-3)" points="1.0589401 0.112377754 1.89916097 -0.727843114 8.05098997 5.42398588 7.2107691 6.26420675"></polygon>
+                        </g>
+                        <path d="M20.6763252,6.85839368 L23.566993,6.17045455" id="Path-7-Copy" stroke="#8696C5" stroke-width="0.9"></path>
+                        <path d="M19.4880734,5.67203004 L20.6002571,2.81071276" id="Path-7" stroke="#8696C5" stroke-width="0.9"></path>
+                        <ellipse id="Oval-4" fill="#8B9AA8" cx="17.8237762" cy="7.95" rx="3.16867133" ry="3.16363636"></ellipse>
+                    </g>
+                </g>
+                <polygon id="Rectangle-27" fill="#DAE2EC" points="12.6545455 55.4232756 57.423417 69.6298818 57.423417 119.796419 12.6545455 100.509657"></polygon>
+                <polygon id="Rectangle-27-Copy" fill="#C5D0D9" transform="translate(75.475525, 88.562376) scale(-1, 1) translate(-75.475525, -88.562376) " points="56.7883976 57.3283339 94.162653 69.6298818 94.162653 119.796419 56.7883976 100.509657"></polygon>
+                <polygon id="Path-17-Copy" fill="#DAE2EC" transform="translate(82.712316, 74.521664) scale(-1, 1) translate(-82.712316, -74.521664) " points="71.3679204 57.2987658 56.9199468 76.6344348 95.2623199 91.7445629 108.504686 69.5348558"></polygon>
+                <polygon id="Path-17" fill="#C5D0D9" points="12.6005939 55.3188302 0.0863175661 74.8407875 44.1922551 91.7445629 57.0783079 69.5083437"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

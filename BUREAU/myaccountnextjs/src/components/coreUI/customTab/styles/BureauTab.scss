@@ -1,0 +1,139 @@
+@import "coreStyle/config.scss";
+
+.tabContainer{box-shadow:$commonBoxShadow; min-height: 200px; background: $whiteColor; margin-bottom:$boxMarginBottom; border-radius: $boxBorderRadius;
+    .tabHeading{overflow: hidden; display: flex;align-items: center;justify-content: flex-start; background: $SecondaryColor-1; min-height: 52px; border-top-left-radius:$boxBorderRadius; border-top-right-radius:$boxBorderRadius;
+        .bureauList{background: transparent; display: flex;align-items: center; justify-content: center; min-height: 52px;cursor: pointer; width:140px; text-align:center; text-transform: capitalize;
+            &.active{ width:140px;min-height: 52px;background-color:$whiteColor; border-top-left-radius: 12px; border-top-right-radius: 12px; position: relative;
+                &::after{content: ''; background-image: url('/images/icons/bureau/tabBgAfter.svg');background-repeat: no-repeat; position: absolute;bottom: -5px;right: -20px; height: 20px; width: 20px;}
+                &::before{content: ''; background-image: url('/images/icons/bureau/tabBgAfter.svg');background-repeat: no-repeat; position: absolute;bottom: -0px;left: -15px; height: 20px; width: 20px;transform: rotate(270deg); }
+            }
+            &:first-child{&.active{&::before{content: '';  background: none;}}}
+           // &.active{ width:159px;min-height: 52px;background-repeat: no-repeat; background-image: url('/images/icons/bureau/tabBg-2.svg');}
+            // &:first-child{
+            //     &.active{ background-image: url('/images/icons/bureau/tabBg-1.svg');}
+            // }
+            .bureauName{display: none;}
+        }
+    }
+    .tabContent{padding:rem(24) rem(24) rem(24);}
+    &.old{ 
+        .tabHeading{ justify-content: flex-start; border-bottom: 1px solid $SecondaryColor-1; background: $whiteColor;
+            .bureauList{ background: $whiteColor; width: 25%;min-height: 65px; border-bottom: 4px solid $whiteColor;
+                &.active{  border-radius: 0px; width: 25%;min-height: 65px; border-bottom: 4px solid $SecondaryLightColor;overflow: hidden;
+                    &::before,
+                    &::after{content: '';  display: none;}
+                }
+            }
+        }
+        .tabContent{}
+    }
+}
+.creditAssistPaymentSmsContainer{ @include commonBox(); padding: 16px; margin:0px 0px 16px;  display: flex; align-items: center; justify-content: space-between;
+    .settlementBtn{ border-radius: 8px; height: 36px; font-size: 14px; background: $SecondaryLightColor; color: $whiteColor;}
+    .selectDropDown{ position: relative;
+        .pretextLabel{ color: $SecondaryColor-6;}
+        .Select{
+            &.is-open{ 
+                .Select-control{border-radius: 8px 8px 0px 0px;}
+            }
+            .Select-control{ border-radius: 8px;
+                
+            }
+        }
+        .errorSuccess,.errorMsg{ position: absolute; right: 0px; margin: 0px; font-size: 12px; text-align: right;}
+        .errorMsg{ color: $failed;}
+        .errorSuccess{color: $greenColor;}
+    }
+   
+}
+@media (max-width:767px) {
+    .tabContainer{border-radius:0px;  box-shadow: none; margin-bottom: $boxMarginBottomMobile;
+        .tabHeading{border-radius: 0px; background-color: $whiteColor;min-height: 41px; background: #f7f8fa;align-items: flex-end;         
+            .bureauList{position: relative;width:25%; min-height: 41px;margin-left:0%;border-top-right-radius: 72%;
+                img{display: none;}
+                .bureauName{z-index: 3; font-weight: 600; display: flex; align-items: center; justify-content: center; padding-top: 10px; font-size: 12px; line-height: 12px; color: $SecondaryColor; height: 42px;
+                    background-image: url('/images/icons/bureau/tab/inactiveCenter.svg'); background-repeat:repeat-x;
+                }
+                &::after,
+                &::before{content: '';background-repeat: no-repeat; background-size: cover;  height: 42px; width: 37px; z-index: 2; }
+                &::before{content: ''; background-image: url('/images/icons/bureau/tab/inactiveLeft.svg'); }
+                &::after{content: ''; background-image: url('/images/icons/bureau/tab/inactiveRight.svg');}
+                &.active{z-index: 9;  min-height: 41px; margin: 0px 0px 0px 0px;border-top-left-radius: 72%;border-top-right-radius: 72%;background-color: transparent;
+                    &::after,
+                    &::before{content: ''; height: 42px;width: 44px; background-repeat: no-repeat; background-size: cover;position: unset; }
+                    &::after{content: url('/images/icons/bureau/tab/activeRight.svg');background-image: none; }
+                    &::before{content: url('/images/icons/bureau/tab/activeLeft.svg');background-image: none; transform:unset;}
+                    .bureauName{ background-image: url('/images/icons/bureau/tab/activeCenter.svg');  color: $SecondaryLightColor; }
+                }
+                &:nth-child(1),
+                &:first-child{width:20%;
+                    &::before{content: ''; background-image:url('/images/icons/bureau/tab/inactiveCenter.svg'); background-repeat:repeat-x;background-size: unset;}
+                    &.active{width: 25%;margin-right: -5%;
+                        &::before{content: ''; background-image: url('/images/icons/bureau/tab/activeCenter.svg'); }
+                    }
+                }
+                &:nth-child(2){width:30%;}
+                &:nth-child(3){width:30%;
+                    &.active{width: 25%;}                }
+                &:nth-child(4),
+                &:last-child{width:25%;
+                    &::after{ content:''; background-image:url('/images/icons/bureau/tab/inactiveCenter.svg'); background-repeat:repeat-x;background-size: unset;height: 42px;}
+                    &.active{width: 25%;margin-left: -5%;
+                        .bureauName{ padding-right: 16px; }
+                        &::after{content: ''; background-image: url('/images/icons/bureau/tab/activeCenter.svg');}
+                    }
+                }            
+            } 
+            .bureauList_v1{position: relative;  background: transparent; min-width: 85px;  min-height: 43px; margin: 0px;border-bottom: 1px solid #A0A1EA; 
+                background-image: url('/images/icons/bureau/tabBgMobile.svg');background-repeat: no-repeat; background-size: cover;
+                .bureauName{z-index: 3; display: flex; align-items: center; font-size: 12px; line-height: 18px; color: $SecondaryColor;}
+                &::after{content: '';display: none;}
+                &.active{z-index: 22; background-image: url('/images/icons/bureau/tabBgMobileActive.svg');background-repeat: no-repeat; background-size: cover; background-color: transparent; border: 0px; 
+                    min-height: 44px;margin: 0px -12px -3px -12px;min-width: 114px;
+                    &::after{content: '';  display: none;}
+                    &::before{content: ''; display: none;}
+                    .bureauName{color: $SecondaryLightColor; }
+                }
+
+                &:nth-child(1){z-index: 9;margin-left: -24px;
+                    &.active{z-index: 22;margin-left: -34px;}
+                }
+                &:nth-child(2){z-index: 8;
+                    &.active{z-index: 22;}
+                }
+                &:nth-child(3){z-index: 7;
+                    &.active{z-index: 22;}
+                }
+                &:nth-child(4){z-index: 6;margin-left: -2px;width: 50px;
+                    &.active{z-index: 22; min-width: 116px;  background-image: url('/images/icons/bureau/tabBgAfterMobileActiveLast.svg');margin: 0px -26px -3px -12px;}
+                }
+                img{display: none;}
+            }
+        }
+        .tabContent{padding:rem(16) rem(16) 0px;}
+        &.old{
+            .tabHeading{background-color: $whiteColor;  border-bottom: 1px solid $SecondaryColor-1;
+                .bureauList{ margin: 0px!important; background: $whiteColor; width: 25%;min-height: 50px; border-bottom: 3px solid $whiteColor;
+                    img{display: none;}
+                    &::before,
+                    &::after{content: '';  display: none; }
+                    .bureauName{background-image: none;}
+                    &:hover,
+                    &.active{margin: 0px!important; background-image: none; border-radius: 0px; width: 25%;min-width:25%; min-height: 50px; border-bottom: 2px solid $SecondaryLightColor;overflow: hidden;
+                        .bureauName{ padding-right: 0px; }
+                        &::before,
+                        &::after{content: '';  display: none; }
+                    }
+                }
+            }
+            .tabContent{}
+        }
+    }
+    .creditAssistPaymentSmsContainer{ padding:8px !important;border-radius: 0px; @include commonBoxMobile();
+        .settlementBtn{ font-size: 12px; margin-right: 8px; padding: 2px; height: 36px; white-space: pre;word-break: normal;text-overflow: ellipsis;overflow: hidden;} 
+        .selectDropDown{ width: 250px;
+            .pretextLabel{line-height: 12px;align-items: center; justify-content: flex-end; font-size: 12px; display: none;}
+            .errorSuccess,.errorMsg{  font-size: 12px;}  
+        }
+    }
+}

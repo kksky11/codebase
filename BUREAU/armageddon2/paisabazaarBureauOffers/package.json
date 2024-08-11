@@ -1,0 +1,56 @@
+{
+    "name": "PBBO",
+    "version": "1.0.0",
+    "description": "",
+    "main": "builds/index.js",
+    "scripts": {
+        "start": "node build/index.js",
+        "test": "mocha --recursive"
+    },
+    "author": "Sumit Kohli",
+    "license": "ISC",
+    "dependencies": {
+        "async": "2.5.0",
+        "bluebird": "3.0.1",
+        "body-parser": "1.18.2",
+        "btoa": "1.2.1",
+        "cassandra-driver": "3.3.0",
+        "chai": "4.1.2",
+        "deepcopy": "0.6.3",
+        "events": "1.1.1",
+        "express": "4.16.1",
+        "express-http-context": "^1.2.4",
+        "express-validator": "4.1.1",
+        "fs": "0.0.1-security",
+        "ip": "^1.1.5",
+        "joi": "13.0.1",
+        "js2xmlparser": "3.0.0",
+        "jsonwebtoken": "7.4.3",
+        "moment": "2.18.1",
+        "mysql": "2.15.0",
+        "nconf": "0.8.4",
+        "newrelic": "2.4.2",
+        "node-exceptions": "2.0.2",
+        "redis": "2.8.0",
+        "request": "2.81.0",
+        "soap": "0.23.0",
+        "supertest": "3.0.0",
+        "underscore": "1.8.3",
+        "url": "0.11.0",
+        "uuid": "3.1.0",
+        "winston": "2.3.1",
+        "xml2js": "0.4.19"
+    },
+    "devDependencies": {},
+    "apidoc": {
+        "name": "apidoc-example",
+        "version": "0.3.0",
+        "description": "apiDoc example project",
+        "title": "Custom apiDoc browser title",
+        "url": "http://localhost:3000/api/v1",
+        "template": {
+            "withCompare": true,
+            "withGenerator": true
+        }
+    }
+}

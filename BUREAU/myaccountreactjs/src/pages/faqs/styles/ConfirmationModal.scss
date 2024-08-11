@@ -1,0 +1,29 @@
+@import "../../../styles/config.scss";
+.confirmationModal{min-height: 100px;    max-width: 480px;  display: flex;  flex-direction: column;  justify-content: space-between;  
+  ._title{ font-size: 16px; font-weight: 600; line-height: 22px; margin:20px 0px 16px; color: $SecondaryColor;} 
+  ._subTitle{font-size: 14px; font-weight: 600; line-height: 22px; margin:0px 0px 16px;  color: $SecondaryColor-8;}
+  ._list{margin: 0px 0px 20px; padding: 0px 0px 0px 16px;
+     li{font-size: 14px; line-height: 22px; margin-bottom: 5px; color: $SecondaryColor-8;}
+  }
+  ._infoText{color: $SecondaryColor; font-size: 14px; line-height: 22px; font-weight: 600;margin:0px 0px 16px;  }
+  .buttonContainer{text-align: center;
+    .btn{height: 33px; min-width: 100px; padding: 0 10px;
+      &.deleteAccountBtn{min-width: 120px; margin-left: 3px;}
+      &.keepMyDataBtn{min-width: 120px; margin-left: 52px;}
+      &[disabled]{background-color: $SecondaryLightColor; opacity: 1;}
+    }
+  }
+  .center{text-align: center;} 
+}
+
+@media (max-width: 767px) {
+    .confirmationModal{max-width: 100%;
+      ._list{ padding: 0px 0px 0px 16px;}
+      .buttonContainer{text-align: center;
+        .btn{height: 40px; min-width: 100%; padding: 0 10px;
+          &.deleteAccountBtn{margin-left: -4px;}
+          &.keepMyDataBtn{margin-left: 32px;}
+        }
+      }
+     }
+}

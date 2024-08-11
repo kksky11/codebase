@@ -1,0 +1,46 @@
+{
+    "server": {
+        "id": "002",
+        "index": {
+            "port": 3000
+        }
+    },
+    "request":{
+        "limit": "50mb"
+    },
+    "logging" : {
+        "label"       : "zephyr_assest_system",
+        "consoleLevel": "info",
+        "fileLevel"   : "info"
+    },
+    "users": {
+        "atom": "supersecret"
+    },
+    "database":{
+        "cassandra": {
+            "contactPoints" : ["10.120.10.108:9042", "10.120.10.109:9042", "10.120.10.110:9042"],
+            "keyspace"      : "paisabazaar_bureau_application",
+            "user"          : "zephyr_cass",
+            "password"      : "30DE5Xd4BoQHc+vLZsPZh6mG",
+            "authentication" : true
+        }
+    },
+    "systems": {
+        "atomSystem": {
+            "apiURL": "http://atom.local/api/v1/"
+        }
+    },
+    "alertPriority" : {
+        "FRAUD_ALERT"           : 1,
+        "PARTNER_BUREAU_ALERT"  : 2,
+        "PCO_OFFER_ALERT"       : 3,
+        "REFRESH_ALERT"         : 4
+    },
+    "archivalProcess" : {
+        "encryptionKey" : "x3dsOGUoelRITiFh"
+    },
+    "blob" : {
+        "containerName" : "archivedbassetsblob",
+        "accountName"   : "zephyrarchives"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "server": {
+        "index": {
+            "port": 8282
+        }
+    },
+
+    "logging" : {
+        "label"       : "Eywa",
+        "consoleLevel": "info",
+        "fileLevel"   : "info"
+    },
+    "security": {
+        "tokenLife"	: "3h",
+        "secret"	: "AB864D6D714B33C5FEEBD443B32D29A6"
+    },
+    "bureau": {
+        "1" : "EQUIFAX",
+        "2" : "EXPERIAN",
+        "3" : "HIGHMARK"
+    },
+    "systems": {
+        "atom": {
+            "apiEndpoint": "http://10.0.10.90/api/"
+        }
+    },
+    "cache": {
+        "redis": {
+            "host"	: "127.0.0.1",
+            "port"		: "6379",
+            "prefix"    : "",
+            "switch"    : true
+        }
+    }
+}

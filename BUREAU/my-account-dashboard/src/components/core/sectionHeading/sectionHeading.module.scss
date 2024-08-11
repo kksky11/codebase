@@ -1,0 +1,18 @@
+@import "@styles/config.scss";
+.sectionHeading{ margin-bottom:24px;display: flex; flex-direction: column;
+    &.pageHeading{
+        .heading{font-size: 18px; font-weight: bold; color: $SecondaryLightColor;margin: 0px 0px 4px; 
+            .tag{font-size: 10px; font-weight: 600; display: block; padding: 0px;}
+        }
+        .subTitle{font-size:16px; font-weight: 500;}
+    }
+    &.faqsHeading{
+        @include respond-below ( sm ){margin-bottom:0px;
+            .heading{ padding: 0px 16px;}
+        } 
+    }
+    .heading{ margin: 0px 0px 8px; font-weight: 600;  color: $SecondaryColor; font-size: 24px; line-height: rem(24);
+        .tag{ font-size: 12px; color: $SecondaryColor-8; padding-left: 8px; font-weight: normal;}
+    }
+    .subTitle{margin: 0px; font-weight: normal; color: $SecondaryColor; font-size: 16px; line-height: rem(22);}
+}

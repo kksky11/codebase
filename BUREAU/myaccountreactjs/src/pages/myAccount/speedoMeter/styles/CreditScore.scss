@@ -1,0 +1,25 @@
+@import "styles/config.scss";
+.CreditScore{
+    &.noScore{} 
+   
+
+}
+
+@media (max-width:767px) {
+    .CreditScore{
+        &.noScore{            
+            // .userInfo{
+            //     .user{
+            //         span{margin-bottom: 20px;}
+            //     } 
+            // }
+        }
+        .tabContainer{
+            .tabContent{padding: 16px 0px 0px;}
+        }
+        .BureauInfoAlert{
+            &.active {margin: 0px 16px 16px;}
+        }
+        .userInfo{ padding: 0px 16px;}
+    } 
+}

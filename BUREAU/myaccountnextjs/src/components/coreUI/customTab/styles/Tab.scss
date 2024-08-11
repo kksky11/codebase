@@ -1,0 +1,39 @@
+@import "coreStyle/config.scss";
+
+.TabContainer{
+    .tabHeading{display: flex;margin-bottom: 24px; border-bottom: 1px solid #ddd;
+        .tabLink{min-width: 90px; font-weight: 600; color:$SecondaryColor;font-size: 16px;line-height: 22px; margin-right: 20px; cursor: pointer;display: flex; justify-content: center;
+           img{margin-right: 8px;height: 24px;}
+            &.active{color: $SecondaryLightColor;font-weight: 600;padding-bottom: 10px;position: relative;
+                &::before{content: "";width: 0px;height:0px;display: block;position: absolute;left: calc(50% - 8px);bottom: -10px;z-index: 1; border-left: 8px solid transparent;border-right: 8px solid transparent;border-top: 8px solid $SecondaryLightColor;}
+                &::after{content: "";width: calc(100% - 0px);height: 2px;display: block;background: $SecondaryLightColor;position: absolute;bottom: -2px;}
+            }
+        }
+    }
+    &.tabHeadingLink{
+        .tabHeading{display: none;}
+    }
+    &.personaldetailsTab{
+        .tabHeading{position: relative;
+            // &::before{content:""; position: absolute;}
+            // &.Loans,&.loans{
+            //     &::before{content: url("/images/personalDetails/loanIcon.svg"); }
+            // }
+            // &.Cards,&.cards{
+            //     &::before{content: url("/images/personalDetails/cardIcon.svg"); }
+            // }
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .TabContainer{padding: 16px 0;
+        .tabHeading{margin-bottom: 24px;
+            .tabLink{font-size: 12px;line-height: 22px;min-width: 100px; margin: 0px;
+                 &.active{padding-bottom: 6px;
+                }
+            }
+        }
+    }
+    
+}

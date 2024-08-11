@@ -1,0 +1,11 @@
+@import "./config.scss";
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+ .pageTitle{ font-size: 22px; font-weight: 600; line-height: 22px; color:$SecondaryColor; margin-bottom: 18px;} 

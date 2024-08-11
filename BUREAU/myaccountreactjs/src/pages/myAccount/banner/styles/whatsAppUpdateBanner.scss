@@ -1,0 +1,32 @@
+@import "styles/config.scss";
+.display{display: flex;align-items: center;justify-content: space-between;}
+.WhatsAppUpdateBanner{box-shadow:$commonBoxShadow; @extend .display; padding:rem(24); min-height: 131px; background: $whiteColor; margin-bottom:$boxMarginBottom; border-radius: $boxBorderRadius;
+    .infoSection{ @extend .display;
+        .WhatsAppUpdateIconDesktop{margin-right:rem(24);}
+        .bannerInfo{max-width: 460px;
+            .title{margin: 0px 0px 8px; font-weight: 600; font-size: rem(20); line-height: rem(28); color: $SecondaryColor;}
+            .desc{margin: 0px; font-weight: 600; font-size: rem(14); line-height: rem(24); color: $SecondaryColor;}
+        }
+    }   
+    .buttonContainer{@extend .display;
+        .WhatsAppBtn{ height: 36px;  width: 124px;border-radius:rem(6);background-color: #009c00; color:$whiteColor;}
+        .WhatsAppUpdateIconMobile{ display: none;}
+    }
+}
+@media (max-width:767px) {
+    .WhatsAppUpdateBanner{ flex-direction: column;margin: 16px;
+        .infoSection{margin-bottom: 8px;
+            .WhatsAppUpdateIconDesktop{ display: none;}
+            .bannerInfo{
+                .title{ padding-left: 35px; position: relative;
+                    &:before{content: url('/images/whatsapp/whatsappIcon.svg'); position: absolute;left:0px;}
+                }
+                .desc{color: $SecondaryColor-7;} 
+            }
+        }
+        .buttonContainer{  width: 100%;
+            .WhatsAppBtn{}
+            .WhatsAppUpdateIconMobile{ display: block;}
+        }
+    }
+}

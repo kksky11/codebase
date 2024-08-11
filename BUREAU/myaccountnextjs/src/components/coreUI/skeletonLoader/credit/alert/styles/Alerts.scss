@@ -1,0 +1,45 @@
+@import "coreStyle/config.scss"; 
+
+._commonSkeleton{margin-bottom: 80px;
+    ._heading{ max-width: 204px; height: 26px; margin: 0 auto 20px;}
+    ._imageContainer{
+        .img{height:250px; margin: 15%;}
+    }
+    &.alertListWrapper{
+        ._infoHeading{padding:0px 16px 16px; display: flex;flex-direction: column; align-items: center;justify-content: space-between;width: 50%;
+            ._title{height: 12px; margin: 0px 0px 16px;}
+            ._subtitle{height: 8px; margin: 0px 0px 0px;}
+        }
+        .alertListContainer{ display: flex;flex-direction: column; align-items: center;justify-content: space-between;width: 100%;
+            &:last-child{padding-bottom: 0px;border-bottom: 0px; }
+            .alertList{padding:16px; width: 100%; border-bottom: 1px solid $SecondaryColor-1;  display: flex;align-items: center;justify-content: space-between;
+                &:last-child{border-bottom: 0px; }
+                .iconContainer{height: 32px; width: 32px;
+                    ._icon{ height: 32px; width: 32px; border-radius: 50%;  margin: 0px;}
+                }
+                .infoTextContainer{margin:0px; width: calc(100% - 32px); display: flex;align-items: center;justify-content: space-between;
+                    ._title{height: 32px; margin: 0px 12px;}
+                    ._icon{height: 24px; width: 24px; border-radius: 50%;  margin: 0px;}
+                }
+               
+            }           
+        }
+        .buttonContainer{.btn{height: 48px; margin: 16px auto;}}
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    ._commonSkeleton{margin-bottom: 24px;
+        &.alertListWrapper{
+            .alertListContainer{ 
+                .alertList{
+                    ._icon{}
+                    ._title{} 
+                    ._infoText{}
+                }
+            }
+        }
+    }
+}
+
+

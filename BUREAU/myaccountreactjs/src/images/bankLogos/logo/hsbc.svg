@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>hsbc</title>
+    <desc>Created with Sketch.</desc>
+    <g id="hsbc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HSBC_logo" transform="translate(1.000000, 13.000000)" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#FFFFFF" x="11.6575342" y="0" width="23" height="22.6891892"></rect>
+            <polygon id="Path" fill="#DB0011" points="46 11.3579255 34.3424658 0 34.3424658 22.6891892"></polygon>
+            <polygon id="Path" fill="#DB0011" points="23.1575342 11.5 34.6575342 0 11.6575342 0"></polygon>
+            <polygon id="Path" fill="#DB0011" points="0 11.3579255 11.6575342 22.6891892 11.6575342 0"></polygon>
+            <polygon id="Path" fill="#DB0011" points="23.1575342 11.1891892 11.6575342 22.6891892 34.6575342 22.6891892"></polygon>
+        </g>
+    </g>
+</svg>

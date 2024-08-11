@@ -1,0 +1,62 @@
+@import "styles/config.scss";
+.CreditAdvisoryBanner{margin-bottom: 40px; height: 300px; overflow: hidden;border-radius:$commonBorderRadius; background-color: $whiteColor;box-shadow: 0 2px 19px 0 #EDEDED;
+    display: flex; align-items: center; justify-content:flex-start;
+    .imageContainer{width: 328px; background-color: #FBF7FF;}
+    .infoContainer{ padding:24px; width:calc(100% - 328px);
+        ._LogoTitle{ height: 30px; width: auto;margin-bottom: 8px;
+            img{height: 30px; width: auto;}
+        }
+        ._infoTitle{color: $SecondaryColor;  font-size: 16px;font-weight: 600;letter-spacing: 0;line-height: 24px; margin-bottom: 24px;}
+        ._infoFeatures{ padding:0px; margin: 0px; list-style: none; margin-bottom: 24px;
+            li{color: $SecondaryColor; text-align: left; padding-left: 32px; margin-bottom: 16px;font-size: 14px; line-height: 22px; font-weight: 600; position: relative;
+                &::before{content: ''; position: absolute; left: 0px;}
+                &:nth-child(1){ &:before{content: url("/images/icons/creditAdvisory/banner/personalized.svg");}}
+                &:nth-child(2){ &:before{content: url("/images/icons/creditAdvisory/banner/tips.svg");}}
+                &:nth-child(3){ &:before{content: url("/images/icons/creditAdvisory/banner/guidance.svg");}}
+            }
+        }
+        .buttonContainer{ display: flex; align-items: center; justify-content: space-between;
+            .btn{
+                &.knowMoreBtn{color: $whiteColor; font-size: 16px;font-weight: 600;line-height: 20px;  height: 44px;width: 240px;border-radius: 8px;background: linear-gradient(161.41deg, #C811F5 0%, #590894 100%)}
+                &.whyIsItImportantBtn{display: flex;align-items: center;justify-content: space-between;width: 145px; background: transparent; color: $SecondaryLightColor; font-size: 12px;font-weight: 600;line-height: 24px;}
+            }
+        }
+        .whyImportant{display: none;}
+    }
+}
+
+
+@media (max-width:767px) {
+    .CreditAdvisoryBanner{ margin-bottom:16px;border-radius: 0px;height: auto; background-image: url('/images/icons/creditAdvisory/banner/CreditAdvisoryBg_mobile.svg');background-repeat: no-repeat;background-position: right 0% top 0%;
+        .imageContainer{ display: none;}
+        .infoContainer{ width: 100%;padding: 42px 16px 16px;
+            ._LogoTitle{ height: 20px;
+                img{ height: 20px;}
+            }
+            ._infoTitle{font-size: 12px;line-height: 18px; margin-bottom: 44px;}
+            ._infoFeatures{
+                li{font-size: 14px;line-height: 18px; font-weight: normal;
+                    &::before{}
+                }
+            }
+            .buttonContainer{ flex-direction: column;
+                .btn{
+                    &.knowMoreBtn{ margin-bottom: 16px; width: 100%;}
+                    &.whyIsItImportantBtn{ }
+                }
+            }
+            .whyImportant{ display: none;
+                ._infoTitle{font-size: 16px;line-height: 24px; font-weight: 600; margin:8px 0 16px;}
+                ._infoFeatures{ display: flex; align-items:center; justify-content: space-between; flex-wrap: wrap; margin-bottom: 0px;
+                    li{ padding-left: 40px;  font-size: 14px;line-height: 18px; font-weight: normal; width: 49.5%;
+                        &::before{content: ''; position: absolute; left: 0px;}
+                        &:nth-child(1){ &:before{content: url("/images/icons/creditAdvisory/banner/lowinterest.svg");}}
+                        &:nth-child(2){ &:before{content: url("/images/icons/creditAdvisory/banner/greaterChance.svg");}}
+                        &:nth-child(3){ &:before{content: url("/images/icons/creditAdvisory/banner/higherlimit.svg");}}
+                        &:nth-child(4){ &:before{content: url("/images/icons/creditAdvisory/banner/moreNegotiating.svg");}}
+                    }
+                }
+            }
+        }
+    }
+}

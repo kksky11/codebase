@@ -1,0 +1,195 @@
+@import "styles/config.scss";
+.faqContainer{
+    // .heading-common{
+    //     &:before{content: "";height: 2px;width: 40px;background-color: $SecondaryLightColor;margin-bottom: 15px;display: block;}
+    // }
+     .commonHeading{
+        .heading{margin-bottom: 0px;
+            &::after{position: relative; left:0; bottom: -1px; margin-left: 6px;}
+        }
+     }
+    .questionsHeading{color: $SecondaryLightColor;font-size:14px;font-weight: 700;margin: 32px 0px 16px; padding: 0px;}
+    ._accordion_v2{padding: 16px; counter-reset:counter 0; margin-bottom: $boxMarginBottom; border-radius: $boxBorderRadius; box-shadow: $boxShadow; background: $whiteColor;
+        ._article{margin-left: 24px;  border-bottom: 1px solid $SecondaryColor-1 ;  counter-increment:counter 1;  position: relative;  
+            &:last-child{border-bottom: 0px;}
+            &:before{content: counter(counter) ". "; position: absolute; left: -24px;top: 11px;  font-weight: bold; font-size: 14px; color:$SecondaryColor;}  
+            label{position: relative; 
+                &[for]{font-weight: 600;font-size: 14px;line-height: 22px;color:$SecondaryColor;padding: 10px 0;cursor: pointer;display: flex;
+                    &:before {content: url('/images/faqs/plusIcon.svg');color:$SecondaryLightColor; font-size: 16px;font-weight: 600; position: absolute; right: 0px;}
+                }
+                &.activeArticle{
+                    &[for]{&:before {content: url('/images/faqs/minusIcon.svg');right:5px;} }
+                }
+                &.activeChildArticle{
+                    &[for]{&:before {content: url('/images/faqs/minusIcon.svg'); right:5px;} }
+                }
+                &.activeChildArticle,
+                &.activeArticle{                   
+                    &~ .infoTxt{
+                        -webkit-animation: fade-in-bottom 0.02s 0.02s cubic-bezier(0.645, 0.045, 0.355, 1) both;
+                        animation: fade-in-bottom 0.02s 0.02s cubic-bezier(0.645, 0.045, 0.355, 1) both;
+                        display: block;
+                    }
+                    &~ label{display: flex;
+                        &[for]{&:before {content: url('/images/faqs/minusIcon.svg'); right: 5px;}}
+                    } 
+            } 
+
+            }
+            a{color:$SecondaryLightColor;text-decoration: none; 
+                &:hover{ font-weight: 400;}
+            }
+            input{
+                &[type="checkbox"],&[type="radio"]{display: none;
+                    &:checked{
+                        &~ .infoTxt{
+                        -webkit-animation: fade-in-bottom 0.02s 0.02s cubic-bezier(0.645, 0.045, 0.355, 1) both;
+                        animation: fade-in-bottom 0.02s 0.02s cubic-bezier(0.645, 0.045, 0.355, 1) both;
+                        display: block;
+                        }
+                        &~ label{display: flex;
+                            &[for]{
+                                &:before {content: "-";color:$SecondaryLightColor;}
+                            }
+                        } 
+                }
+            }        
+            } 
+           
+            .infoTxt {counter-reset:counter 0; padding-bottom: 10px;padding-right: 20px;display: none;font-size: 13px;line-height: 22px;text-align: justify;color:$SecondaryColor;
+                p:not([class]){margin: 0;}
+                .-accordian{counter-increment:counter 1;  position: relative;   padding-left: 24px;
+                    &:before{content: counter(counter) ". "; position: absolute; left:0; top:11px;  font-weight: bold; font-size: 14px; color:$SecondaryLightColor;}
+                    &:last-child{border-bottom: 0px;}
+                    label{position: relative;font-size: 13px; padding: 10px 24px 10px 0px;
+                        &[for]{
+                            &:before {content: '\f107';font: normal normal normal 14px/1 FontAwesome;font-size: inherit;text-rendering: auto;-webkit-font-smoothing: antialiased; }
+                        }
+                        &.activeChildArticle{
+                            &[for]{&:before {content: '\f106'; right: -5px;}}
+                        }
+                    }
+                    input{
+                        &[type="checkbox"],&[type="radio"]{
+                            &:checked{
+                                &~ label{
+                                    &[for]{
+                                        &:before {content: '\f106';font: normal normal normal 14px/1 FontAwesome;font-size: inherit;text-rendering: auto;-webkit-font-smoothing: antialiased;}
+                                    }
+                                } 
+                            }
+                        }
+                    }
+
+                }
+                ul{
+                    &.disc{
+                        li{ text-align: left;}
+                    }
+                    &.list{padding: 0px; margin: 0px;counter-reset:counter 0;
+                        li{text-align: left; padding: 0px; margin:0px 0px 8px;counter-increment:counter 1;  position: relative;   padding-left: 24px;
+                            &:before{content: counter(counter) ". "; position: absolute; left:0; top:0;  font-weight: bold; font-size: 14px; color:$SecondaryColor;}
+                        }
+                    }
+                }
+            } 
+                          
+        } 
+        ._linkButton{display: flex;align-items: center;justify-content: flex-start; padding-left: 25px; margin: 16px auto; position: relative;text-align: center; color: rgba(94, 106, 114, 0.99);font-size: 0.75rem; font-weight: 600; text-decoration: none;cursor: pointer;
+           a{text-decoration: none; color: $SecondaryLightColor; font-size: 14px;}
+            &::after{ content:url('/images/faqs/arrow.svg');transform: rotate(-90deg); margin-left: 5px;}
+        } 
+
+        .showMoreArticle{  display: none;
+            &.active{display: block;}
+        }
+        .showMoreArticleButton{text-align: center; display: flex; align-items:  center; justify-content: center; width: 100%; 
+        .btnLink{cursor: pointer; color: $SecondaryLightColor; font-size: 14px;  padding: 16px 0px 8px;font-weight: 600;border-bottom: 1px solid $SecondaryLightColor;width: 80px;} 
+        }
+        
+    &.topArticle{counter-reset:counter 0;   margin-bottom: 40px;
+        //._article{&:last-child{border-bottom: 0px;}}
+    }
+    &.moreArticle{counter-reset:counter 0;  margin-bottom: 40px;
+        //._article{&:last-child{border-bottom: 0px;}}
+    }
+    &.unsubscribeArticle{counter-reset:counter 0;  margin-bottom: 40px;
+        //._article{&:last-child{border-bottom: 0px;}}
+    }
+    &.ScorePlusFaq,
+    &.topQuestionsList{border: 0px !important; box-shadow: $boxShadow; overflow: hidden;padding:0px; margin:0px; background: $whiteColor;border-radius: $boxBorderRadius; 
+        ._article{margin: 0px;
+            &:before{content:'';} 
+            label{padding: 16px 50px 16px 16px; border-left: 2px solid $whiteColor;
+                &[for]{
+                    &:before {content: url('/images/icons/plusIcon.svg'); right: 16px;}
+                }
+                &.activeArticle{
+                    &[for]{&:before {content: url('/images/icons/minusIcon.svg'); top:13px; right:20px;}}
+                }
+                &.activeArticle,
+                &:hover{background: rgba(5, 47, 95, 0.04); border-left:2px solid $SecondaryLightColor;
+                    &:before {content: url('/images/icons/plusIcon.svg'); right: 16px;}
+                }
+            }
+            .infoTxt{padding: 16px 24px; font-size: 13px; line-height: 24px;}
+        }
+    }
+
+    }
+    &.faqsQuestions{margin-bottom:$boxMarginBottom;
+        .ScorePlusFaq,
+        .topQuestionsList{ border: 1px solid $SecondaryColor-1;}
+        .viewAllQuestions{ background: transparent; padding: 0px 0px 0px 26px; margin-top: rem(16); color: $SecondaryLightColor; font-size: rem(12); line-height:rem(18); display: flex; align-items: center; justify-content: center;
+            .btn_after_image{height: 9px;margin-left: 6px;} 
+        }
+        &.ScorePlusFaq{
+            .-accordian_v2{ box-shadow: none; border: 0px solid $SecondaryColor-1 !important;}
+        }        
+    }
+}
+
+@media (max-width: 767px) {
+    .faqContainer{padding: 0px;
+        .pageHeading{padding: 0px 16px;}
+        ._accordion_v2{margin-bottom: $boxMarginBottomMobile;margin-top: 24px; border-radius: 0px;
+            ._article{
+                label{text-align: left;
+                    &[for]{padding: 10px 24px 10px 0px;}
+                }
+                .infoTxt{text-align: left;}
+            }
+            &.isAddon{
+                margin-bottom: 124px;
+            }
+            &.ScorePlusFaq, 
+            &.topQuestionsList{ box-shadow: none;
+                ._article{
+                    label{
+                        &[for]{font-size: 12px;line-height: 18px;
+                            &:before {right:0px; top:8px;}
+                        }
+                        &.activeArticle{
+                            &[for]{&:before {right:5px; top:2px}}
+                        }
+                        &.activeArticle,
+                        &:hover{background: transparent; border-left:2px solid $whiteColor; font-weight: 600;}
+                    }
+                    .infoTxt{padding: 0px 0px 16px;font-size: 12px;line-height: 18px;text-align: justify; }
+                }
+            }
+        }
+        &.faqsQuestions{ background: $whiteColor; padding: 12px;
+            .ScorePlusFaq,
+            .topQuestionsList{ border: 0px;}
+            .viewAllQuestions{ padding: 0px; min-width: 120px;}
+            &.ScorePlusFaq{
+                .-accordian_v2{border: 0px !important;
+                    ._article{
+                        .infoTxt{text-align: left;} 
+                    }
+                }
+            }  
+        }
+     }
+}

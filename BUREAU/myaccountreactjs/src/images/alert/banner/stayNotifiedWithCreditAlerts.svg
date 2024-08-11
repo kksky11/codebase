@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="67px" height="67px" viewBox="0 0 67 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>39C9AAA1-5B00-49C6-B4E9-5D0F22B1019D@1x</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#C8D2FF" offset="1.03256119%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Final_02" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---Manage-My-Plan" transform="translate(-974.000000, -737.000000)">
+            <g id="Group-26" transform="translate(376.000000, 713.000000)">
+                <g id="Group-22-Copy-2" transform="translate(581.000000, 0.000000)">
+                    <g id="icon" transform="translate(17.000000, 24.000000)">
+                        <path d="M16.75,0 L50.25,0 C59.5007696,-1.6993388e-15 67,7.49923044 67,16.75 L67,50.25 C67,59.5007696 59.5007696,67 50.25,67 L16.75,67 C7.49923044,67 1.13289253e-15,59.5007696 0,50.25 L0,16.75 C-1.13289253e-15,7.49923044 7.49923044,1.6993388e-15 16.75,0 Z" id="#avatar_en" fill="#EAEAFF"></path>
+                        <g id="Access-to-premium-credit-card">
+                            <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="67" height="67"></rect>
+                            <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="27.5" cy="43.5" r="21.5"></circle>
+                            <g id="Group-96" transform="translate(21.000000, 14.000000)">
+                                <path d="M4,0 L24,0 C26.209139,-4.05812251e-16 28,1.790861 28,4 L28,43 C28,45.209139 26.209139,47 24,47 L4,47 C1.790861,47 2.705415e-16,45.209139 0,43 L0,4 C-2.705415e-16,1.790861 1.790861,1.29399067e-15 4,0 Z" id="Rectangle" stroke="#5557FF" stroke-width="1.6" fill="#FFFFFF"></path>
+                                <line x1="11" y1="3.5" x2="17" y2="3.5" id="Line-5" stroke="#5557FF" stroke-linecap="round" stroke-linejoin="round"></line>
+                                <rect id="Rectangle-Copy-15" fill="#E9EAFF" x="3" y="22" width="22" height="8" rx="0.899999976"></rect>
+                                <rect id="Rectangle-Copy-16" fill="#E9EAFF" x="3" y="31" width="22" height="8" rx="0.899999976"></rect>
+                            </g>
+                            <g id="Group-4" transform="translate(16.000000, 17.000000)">
+                                <path d="M1.35000002,7 L36.65,7 C37.3955844,7 38,7.6044156 38,8.35000002 L38,17.65 C38,18.3955844 37.3955844,19 36.65,19 L1.35000002,19 C0.604415598,19 -7.96870662e-16,18.3955844 0,17.65 L0,8.35000002 C-9.1307758e-17,7.6044156 0.604415598,7 1.35000002,7 Z" id="Rectangle" fill="#5557FF"></path>
+                                <g id="Group-33" transform="translate(4.000000, 10.900000)">
+                                    <path d="M3.41658161,3.46800795 C3.06892105,3.68662724 2.96211044,4.15588744 3.17777238,4.5173346 C3.39492649,4.88144725 3.8505329,4.99688899 4.19826554,4.77819504 L4.42637136,4.55503795 L6.11075489,2.58206239 L3.62043878,3.38147428 L3.41658161,3.46800795 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero" transform="translate(4.588546, 3.735405) rotate(4.000000) translate(-4.588546, -3.735405) "></path>
+                                    <path d="M9,4.7079208 C9,2.10780794 6.98528137,0 4.5,0 C2.01471863,0 0,2.10780794 0,4.7079208" id="Oval" stroke="#FFFFFF" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </g>
+                                <g id="Group-5" transform="translate(15.000000, 10.900000)" stroke="#FFFFFF" stroke-linecap="round">
+                                    <line x1="0.357142857" y1="0.5" x2="14.6428571" y2="0.5" id="Line-3"></line>
+                                    <line x1="0.357142857" y1="3.5" x2="10.3571429" y2="3.5" id="Line-3-Copy"></line>
+                                </g>
+                                <g id="Group-29" transform="translate(26.000000, 0.000000)">
+                                    <circle id="Oval" fill="#F04E95" cx="8.5" cy="8.5" r="8.5"></circle>
+                                    <g id="Group-91" transform="translate(4.857143, 3.642857)" fill="#FFFFFF" fill-rule="nonzero">
+                                        <path d="M3.65394584,9.71428571 C3.16075903,9.71428571 2.75732261,9.2980402 2.75732261,8.78919471 C2.75732261,8.69674756 2.77968374,8.62721085 2.77968374,8.55783522 L4.50587762,8.55783522 C4.52823876,8.62721085 4.52823876,8.71981908 4.52823876,8.78919471 C4.55075642,9.29787499 4.14715987,9.71428571 3.65395305,9.71428571 L3.65394584,9.71428571 Z" id="Path"></path>
+                                        <path d="M7.28571429,7.91019718 L0,7.91019718 L0,7.28566369 C0,7.21628806 0.0448791994,7.12367983 0.0896022763,7.0775368 C0.0896022763,7.0775368 0.874297724,6.22179252 0.874297724,3.93194653 C0.874297724,2.15094603 2.04005204,1.41088975 2.9815905,1.17951375 L2.9815905,0.670668261 C2.9815905,0.300561646 3.27306711,0 3.63162033,0 C3.99033768,0 4.28165016,0.300730986 4.28165016,0.670668261 L4.28165016,1.17951375 C5.22318862,1.41087323 6.38894294,2.15094603 6.38894294,3.93194653 C6.38894294,6.22179252 7.17363838,7.0775368 7.17363838,7.0775368 C7.21851758,7.12384091 7.26324066,7.21628806 7.26324066,7.28566369 L7.26324066,7.91019718 L7.28571429,7.91019718 Z" id="Path"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

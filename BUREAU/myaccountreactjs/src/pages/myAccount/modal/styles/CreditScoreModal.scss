@@ -1,0 +1,28 @@
+@import "styles/config.scss";
+.CreditScoreModal{
+    .noHeader{background: $lightBackground;}  
+    .modalWrapper{
+        .modalBody{max-height:100vh;}
+    }   
+    .scoreInfoContainer{
+        .scoreBandDescription{min-height: 100px; max-width: 300px;display: block;
+            .question{ font-size: 16px; line-height: 22px; font-weight: bold; margin-bottom: 8px;}
+            .description{ font-size: 12px; line-height: 18px; font-weight: normal; color: $SecondaryColor-8; text-align: justify;}            
+        }
+        .buttonContainer{ display: none;}
+    }
+}
+
+@media (max-width:767px) {
+.CreditScoreModal {
+    .scoreInfoContainer{ 
+        &.noScore{margin-top: -16px;}
+        .scoreBandDescription{ display: block;min-height: 40px; max-width: 100%;
+            .question{font-size: 12px;font-weight: 600; line-height: 18px; text-align: left;
+                .infoIcon{ display: initial; margin-left: 10px;}
+            }
+            .description{display: block;}
+        }
+    }
+}  
+}

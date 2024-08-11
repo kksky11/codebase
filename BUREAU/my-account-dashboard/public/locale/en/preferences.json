@@ -1,0 +1,24 @@
+{
+    "common":{
+        "heading":"Preferences",
+        "headingDescription":"Manage your Credit Score, Real-time alerts and notification preferences",
+        "comingSoon":"Coming Soon"
+    },
+    "realTimeAlert":{
+        "heading":"Real-time Credit Alerts",
+        "headingDescription":"Real-time insights or important change’s that occur in your Credit Report"
+    
+    },
+    "communication":{
+        "heading":"Communication Preferences",
+        "headingDescription":"Manage notifications regarding Credit Score update(s) and personalised offers on below channels", 
+        "list" :{
+            "SMS":"SMS",
+            "call":"Call",
+            "whatsapp":"Whatsapp",
+            "email":"Email",
+            "appNotification":"App Notification"
+        }
+    }
+
+}

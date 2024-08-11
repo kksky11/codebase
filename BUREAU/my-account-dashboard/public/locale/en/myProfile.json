@@ -1,0 +1,90 @@
+{
+    "common": {
+        "save": "Save"
+    },
+    "myProfile": {
+        "heading": "My Profile",
+        "personalDetails": {
+            "heading": "Personal Details",
+            "form": {
+                "name": {
+                    "label": "YOUR NAME",
+                    "placeHolder": "",
+                    "error": "",
+                    "title": {
+                        "mr": "Mr",
+                        "ms": "Ms"
+                    }
+                },
+                "birthday": {
+                    "label": "BIRTHDAY",
+                    "placeHolder": "",
+                    "error": "Please enter a valid Date of birth"
+                },
+                "email": {
+                    "label":"EMAIL ADDRESS",
+                    "placeHolder": "Eg. example@xyz.com",
+                    "error": ""
+                },
+                "mobile": {
+                    "label": "MOBILE NO",
+                    "placeHolder": "",
+                    "error": ""
+                },
+                "address": {
+                    "label": "ADDRESS",
+                    "placeHolder": "Eg: H.no 121, Railway colony, Gurgaon",
+                    "error": "",
+                    "customMessage": "Please enter address"
+                },
+                "pincode": {
+                    "label": "PINCODE",
+                    "placeHolder": "Eg. 112233",
+                    "error": ""
+                },
+                "city": {
+                    "label": "CITY",
+                    "placeHolder": "Please select city",
+                    "error": ""
+                },
+                "pan": {
+                    "label": "PAN CARD",
+                    "placeHolder": "Eg. ABCDE1234F",
+                    "error": ""
+                }
+            }
+        },
+        "employerDetails": {
+            "heading": "Employer Details",
+            "form": {
+                "employmentType": {
+                    "label": "EMPLOYMENT TYPE",
+                    "placeHolder": "Please select employment Type",
+                    "helperText": "employment type"
+                },
+                "professionType": {
+                    "label": "PROFESSION TYPE",
+                    "placeHolder": "profession type"
+                },
+                "employerName": {
+                    "label": "EMPLOYER NAME",
+                    "placeHolder": "employer name"
+                },
+                "businessType": {
+                    "label": "BUSINESS TYPE",
+                    "placeHolder": "business type"
+                },
+                "monthlyIncome": {
+                    "label": "MONTHLY INCOME",
+                    "placeHolder": "Monthly Income",
+                    "error": "Enter valid monthly income"
+                },
+                "annualTurnover": {
+                    "label": "ANNUAL TURNOVER",
+                    "placeHolder": "Annual Turnover",
+                    "error": "Enter valid annual income"
+                }
+            }
+        }
+    }
+}

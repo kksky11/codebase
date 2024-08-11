@@ -1,0 +1,31 @@
+@import "styles/config.scss";
+
+.userInfo{ padding-bottom: 0px; z-index: 2;position: relative; display: flex; justify-content: space-between; align-items: center; background: $whiteColor;
+    .user{margin: 0px; font-size: rem(14); line-height: rem(22); color: $SecondaryColor; font-weight: 600;
+      b{ font-weight: 600; text-transform: capitalize;}
+      span{ font-weight: normal;}
+    }
+    .nextReport{font-size: rem(14); line-height: rem(22); color: $SecondaryColor; margin: 0px;
+        b{ font-weight: 600;}
+        span{}
+    }
+    .refresh{text-align: right;
+        .refreshText{margin: 0px; font-weight: 600; font-size: rem(10); line-height: rem(18); color: $SecondaryColor-7;}
+        .btn{height: 24px; width: 99px; font-weight: 600; font-size: rem(10); line-height: rem(18); color: $SecondaryLightColor; background: $SecondaryLightColor-1;
+            .refreshBtn{}
+        }
+    }
+}
+
+@media (max-width:767px) {
+    .userInfo{
+        .user{
+            b{ font-size: 16px; line-height: 24px; margin-bottom: 4px;}
+            span{ font-size: 12px; line-height: 18px; display: block;}
+        } 
+        .nextReport{
+            b{ font-weight: 600; font-size: 12px; line-height: 18px;}
+            span{ font-size: 10px; line-height: 16px; display: block; color: $SecondaryColor-7;}
+        }
+    }
+}

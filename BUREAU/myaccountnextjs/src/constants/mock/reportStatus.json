@@ -1,0 +1,1412 @@
+{
+    "status": true,
+    "statusCode": "0",
+    "statusMessage": "Success",
+    "response": {
+      "bureauList": [
+        {
+          "creditBureauType": "HIGHMARK",
+          "applicationId": "a6e0e098-c005-5150-abc4-15a50115b656",
+          "status": "REPORT_RECEIVED",
+          "response": {
+            "creditReportInformation": {
+              "basic": {
+                "userId": "35c92e01-6dcc-4ff0-a4ef-130d702a8f82",
+                "creditBureauTypeId": 3,
+                "applicationId": "251186df-8a2a-5f0a-937a-20577001600a",
+                "previousApplicationId": ""
+              },
+              "score": {
+                "current": {
+                  "applicationId": "251186df-8a2a-5f0a-937a-20577001600a",
+                  "score": "626",
+                  "scoreBand": "FAIR",
+                  "lastUpdated": "01-07-2022",
+                  "nextReportDate": "05-02-2023",
+                  "reportCreatedAt": "05-12-2022 09:47:17",
+                  "scoreBandLabel": "FAIR",
+                  "scoreBandQuestion": "What does Fair credit score mean?",
+                  "scoreBandDescription": "Ok! You are just a few points away from a good credit score. All you need to do is take a few minor steps and become eligible for the best offers on loans and credit cards from banks."
+                },
+                "previous": {
+                  "january": {
+                    "applicationId": "a6e0e098-c005-5150-abc4-15a50115b656",
+                    "score": "626",
+                    "scoreBand": "FAIR",
+                    "lastUpdated": "01-07-2022",
+                    "nextReportDate": "18-02-2023",
+                    "reportCreatedAt": "18-01-2023 08:08:07"
+                  }
+                }
+              },
+              "creditUtilization": {
+                "current": {
+                  "totalCreditUtilization": "-",
+                  "creditUtilizationBand": "N/A"
+                },
+                "status": "NEUTRAL"
+              },
+              "paymentHistory": {
+                "current": {
+                  "averagePayment": "-",
+                  "averagePaymentBand": "N/A"
+                },
+                "status": "NEUTRAL"
+              },
+              "totalAccount": {
+                "current": {
+                  "totalAccount": "-",
+                  "accountBand": "POOR",
+                  "activeAccounts": 0
+                },
+                "status": "NEUTRAL"
+              },
+              "creditHistoryAge": {
+                "current": {
+                  "accountAge": "-",
+                  "shortenedAccountAge": "Not Available",
+                  "accountAgeBand": "N/A"
+                },
+                "status": "NEUTRAL"
+              },
+              "creditEnquiries": {
+                "current": {
+                  "numberOfEnquiries": 0
+                }
+              },
+              "creditSeva": {
+                "applicationId": "251186df-8a2a-5f0a-937a-20577001600a",
+                "improveCreditScore": false,
+                "applicationLeadId": ""
+              }
+            }
+          },
+          "applicationCreatedAt": "2023-01-18 08:08:07",
+          "creditAdvisor": {
+            "eligible": false,
+            "paymentFee": 1299,
+            "rankFactors": [
+              {
+                "eligible": false,
+                "reportStatus": null,
+                "score": null,
+                "bureau": null,
+                "criteria": null,
+                "SCORE_LEVEL": null
+              }
+            ],
+            "paymentPlan": {
+              "withGSTUpTime": {
+                "startTime": "2019-12-20 14:10:00",
+                "endTime": "2019-12-21 14:10:00"
+              },
+              "withGST": true,
+              "membershipPlan": false,
+              "displayCreditAdvisorChannelSelectionPage": false,
+              "actualBaseAmount": 1299,
+              "paymentPlanWithGST": [
+                {
+                  "planType": "Basic_Plan_With_Tax",
+                  "advisoryService": 899,
+                  "actualBaseAmount": 1299,
+                  "additionalCall": 0,
+                  "GST": 18,
+                  "taxAmount": 162,
+                  "totalAmount": 1061,
+                  "additionalPack": [
+                    
+                  ],
+                  "isMembershipPlan": false,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Add_On_Only_Plan_With_Tax",
+                  "actualBaseAmount": 1299,
+                  "advisoryService": 0,
+                  "additionalCall": 199,
+                  "GST": 18,
+                  "taxAmount": 36,
+                  "totalAmount": 235,
+                  "additionalPack": [
+                    
+                  ],
+                  "isMembershipPlan": false,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Basic_Plan_With_Additional_Call_With_Tax",
+                  "actualBaseAmount": 1299,
+                  "advisoryService": 899,
+                  "additionalCall": 199,
+                  "GST": 18,
+                  "taxAmount": 198,
+                  "totalAmount": 1296,
+                  "additionalPack": [
+                    
+                  ],
+                  "isMembershipPlan": false,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Silver",
+                  "actualBaseAmount": 749,
+                  "advisoryService": 499,
+                  "additionalCall": 0,
+                  "additionalPack": [
+                    "Score_Improvement_Report",
+                    "Credit_Report_Additional_Call"
+                  ],
+                  "GST": 18,
+                  "taxAmount": 90,
+                  "totalAmount": 589,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Gold",
+                  "actualBaseAmount": 1199,
+                  "advisoryService": 799,
+                  "additionalCall": 0,
+                  "additionalPack": [
+                    "Credit_Report_Additional_Call"
+                  ],
+                  "GST": 18,
+                  "taxAmount": 144,
+                  "totalAmount": 943,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Platinum_Plus",
+                  "actualBaseAmount": 4999,
+                  "advisoryService": 2999,
+                  "additionalCall": 0,
+                  "additionalPack": [
+                    
+                  ],
+                  "GST": 18,
+                  "taxAmount": 540,
+                  "totalAmount": 3539,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Score_Improvement_Report",
+                  "actualBaseAmount": 299,
+                  "advisoryService": 199,
+                  "additionalCall": 0,
+                  "GST": 18,
+                  "taxAmount": 36,
+                  "totalAmount": 235,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": true
+                },
+                {
+                  "planType": "Credit_Report_Additional_Call",
+                  "actualBaseAmount": 399,
+                  "advisoryService": 199,
+                  "additionalCall": 0,
+                  "GST": 18,
+                  "taxAmount": 36,
+                  "totalAmount": 235,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": true
+                }
+              ],
+              "paymentPlanWithoutGST": [
+                {
+                  "planType": "Basic_Plan",
+                  "totalAmount": 499
+                },
+                {
+                  "planType": "Add_On_Only_Plan",
+                  "totalAmount": 99
+                },
+                {
+                  "planType": "Basic_Plan_With_Additional_Call",
+                  "totalAmount": 598
+                }
+              ]
+            }
+          },
+          "creditRectification": {
+            "eligible": false,
+            "paymentFee": null
+          },
+          "allowSwitchNumber": true
+        },
+        {
+          "creditBureauType": "CIBIL",
+          "applicationId": "3aa0c567-f3d0-5627-9f37-452e9eff856d",
+          "status": "REPORT_RECEIVED",
+          "response": {
+            "creditReportInformation": {
+              "basic": {
+                "userId": "35c92e01-6dcc-4ff0-a4ef-130d702a8f82",
+                "creditBureauTypeId": 4,
+                "applicationId": "21e33675-5399-5508-86d8-6fef147237c5",
+                "previousApplicationId": ""
+              },
+              "score": {
+                "current": {
+                  "applicationId": "21e33675-5399-5508-86d8-6fef147237c5",
+                  "score": "782",
+                  "scoreBand": "EXCELLENT",
+                  "lastUpdated": "07-12-2021",
+                  "nextReportDate": "05-02-2023",
+                  "reportCreatedAt": "05-12-2022 09:47:17",
+                  "scoreBandLabel": "GOOD",
+                  "scoreBandQuestion": "What does Good credit score mean?",
+                  "scoreBandDescription": "Great ! You are considered to be financially responsible when it comes to money management. Most of your loan payments are made on time. With your score and history , banks love you !"
+                },
+                "previous": {
+                  "january": {
+                    "applicationId": "3aa0c567-f3d0-5627-9f37-452e9eff856d",
+                    "score": "757",
+                    "scoreBand": "GOOD",
+                    "lastUpdated": "03-12-2020",
+                    "nextReportDate": "18-02-2023",
+                    "reportCreatedAt": "18-01-2023 08:08:07"
+                  }
+                }
+              },
+              "creditUtilization": {
+                "current": {
+                  "totalCreditUtilization": "-",
+                  "creditUtilizationBand": "N/A"
+                },
+                "status": "NEUTRAL"
+              },
+              "paymentHistory": {
+                "current": {
+                  "averagePayment": "-",
+                  "averagePaymentBand": "N/A"
+                },
+                "status": "NEUTRAL"
+              },
+              "totalAccount": {
+                "current": {
+                  "totalAccount": "-",
+                  "accountBand": "POOR",
+                  "activeAccounts": 0
+                },
+                "status": "NEUTRAL"
+              },
+              "creditHistoryAge": {
+                "current": {
+                  "accountAge": "-",
+                  "shortenedAccountAge": "Not Available",
+                  "accountAgeBand": "N/A"
+                },
+                "status": "NEUTRAL"
+              },
+              "creditEnquiries": {
+                "current": {
+                  "numberOfEnquiries": 0
+                }
+              },
+              "creditSeva": {
+                "applicationId": "21e33675-5399-5508-86d8-6fef147237c5",
+                "improveCreditScore": false,
+                "applicationLeadId": ""
+              }
+            }
+          },
+          "applicationCreatedAt": "2023-01-18 08:08:07",
+          "creditAdvisor": {
+            "eligible": false,
+            "paymentFee": 1299,
+            "rankFactors": [
+              {
+                "eligible": false,
+                "reportStatus": null,
+                "score": null,
+                "bureau": null,
+                "criteria": null,
+                "SCORE_LEVEL": null
+              }
+            ],
+            "paymentPlan": {
+              "withGSTUpTime": {
+                "startTime": "2019-12-20 14:10:00",
+                "endTime": "2019-12-21 14:10:00"
+              },
+              "withGST": true,
+              "membershipPlan": false,
+              "displayCreditAdvisorChannelSelectionPage": false,
+              "actualBaseAmount": 1299,
+              "paymentPlanWithGST": [
+                {
+                  "planType": "Basic_Plan_With_Tax",
+                  "advisoryService": 899,
+                  "actualBaseAmount": 1299,
+                  "additionalCall": 0,
+                  "GST": 18,
+                  "taxAmount": 162,
+                  "totalAmount": 1061,
+                  "additionalPack": [
+                    
+                  ],
+                  "isMembershipPlan": false,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Add_On_Only_Plan_With_Tax",
+                  "actualBaseAmount": 1299,
+                  "advisoryService": 0,
+                  "additionalCall": 199,
+                  "GST": 18,
+                  "taxAmount": 36,
+                  "totalAmount": 235,
+                  "additionalPack": [
+                    
+                  ],
+                  "isMembershipPlan": false,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Basic_Plan_With_Additional_Call_With_Tax",
+                  "actualBaseAmount": 1299,
+                  "advisoryService": 899,
+                  "additionalCall": 199,
+                  "GST": 18,
+                  "taxAmount": 198,
+                  "totalAmount": 1296,
+                  "additionalPack": [
+                    
+                  ],
+                  "isMembershipPlan": false,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Silver",
+                  "actualBaseAmount": 749,
+                  "advisoryService": 499,
+                  "additionalCall": 0,
+                  "additionalPack": [
+                    "Score_Improvement_Report",
+                    "Credit_Report_Additional_Call"
+                  ],
+                  "GST": 18,
+                  "taxAmount": 90,
+                  "totalAmount": 589,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Gold",
+                  "actualBaseAmount": 1199,
+                  "advisoryService": 799,
+                  "additionalCall": 0,
+                  "additionalPack": [
+                    "Credit_Report_Additional_Call"
+                  ],
+                  "GST": 18,
+                  "taxAmount": 144,
+                  "totalAmount": 943,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Platinum_Plus",
+                  "actualBaseAmount": 4999,
+                  "advisoryService": 2999,
+                  "additionalCall": 0,
+                  "additionalPack": [
+                    
+                  ],
+                  "GST": 18,
+                  "taxAmount": 540,
+                  "totalAmount": 3539,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Score_Improvement_Report",
+                  "actualBaseAmount": 299,
+                  "advisoryService": 199,
+                  "additionalCall": 0,
+                  "GST": 18,
+                  "taxAmount": 36,
+                  "totalAmount": 235,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": true
+                },
+                {
+                  "planType": "Credit_Report_Additional_Call",
+                  "actualBaseAmount": 399,
+                  "advisoryService": 199,
+                  "additionalCall": 0,
+                  "GST": 18,
+                  "taxAmount": 36,
+                  "totalAmount": 235,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": true
+                }
+              ],
+              "paymentPlanWithoutGST": [
+                {
+                  "planType": "Basic_Plan",
+                  "totalAmount": 499
+                },
+                {
+                  "planType": "Add_On_Only_Plan",
+                  "totalAmount": 99
+                },
+                {
+                  "planType": "Basic_Plan_With_Additional_Call",
+                  "totalAmount": 598
+                }
+              ]
+            }
+          },
+          "creditRectification": {
+            "eligible": false,
+            "paymentFee": null
+          },
+          "allowSwitchNumber": true
+        },
+        {
+          "creditBureauType": "EQUIFAX",
+          "applicationId": "becaa04e-09c6-5d71-8e9e-4c4dc8836cf1",
+          "status": "REPORT_RECEIVED",
+          "response": {
+            "creditReportInformation": {
+              "basic": {
+                "userId": "35c92e01-6dcc-4ff0-a4ef-130d702a8f82",
+                "creditBureauTypeId": 1,
+                "applicationId": "becaa04e-09c6-5d71-8e9e-4c4dc8836cf1",
+                "previousApplicationId": ""
+              },
+              "score": {
+                "current": {
+                  "applicationId": "becaa04e-09c6-5d71-8e9e-4c4dc8836cf1",
+                  "score": "583",
+                  "scoreBand": "FAIR",
+                  "lastUpdated": "30-11-2021",
+                  "nextReportDate": "05-02-2023",
+                  "reportCreatedAt": "05-12-2022 09:47:17",
+                  "scoreBandLabel": "LOW",
+                  "scoreBandQuestion": "What does Low credit score mean?",
+                  "scoreBandDescription": "Uh-Oh. You seem to have a damaged credit history. This might be due to multiple late payments or a loan default. Ensure all payments are made on time and the banks will love you soon enough."
+                }
+              },
+              "creditUtilization": {
+                "current": {
+                  "totalCreditUtilization": "-",
+                  "creditUtilizationBand": "N/A"
+                },
+                "status": "NEUTRAL"
+              },
+              "paymentHistory": {
+                "current": {
+                  "averagePayment": "-",
+                  "averagePaymentBand": "N/A"
+                },
+                "status": "NEUTRAL"
+              },
+              "totalAccount": {
+                "current": {
+                  "totalAccount": "-",
+                  "accountBand": "POOR",
+                  "activeAccounts": 0
+                },
+                "status": "NEUTRAL"
+              },
+              "creditHistoryAge": {
+                "current": {
+                  "accountAge": "-",
+                  "shortenedAccountAge": "Not Available",
+                  "accountAgeBand": "N/A"
+                },
+                "status": "NEUTRAL"
+              },
+              "creditEnquiries": {
+                "current": {
+                  "numberOfEnquiries": 0
+                }
+              },
+              "creditSeva": {
+                "applicationId": "becaa04e-09c6-5d71-8e9e-4c4dc8836cf1",
+                "improveCreditScore": false,
+                "applicationLeadId": ""
+              }
+            }
+          },
+          "applicationCreatedAt": "2022-12-05 09:47:17",
+          "creditAdvisor": {
+            "eligible": false,
+            "paymentFee": 1299,
+            "rankFactors": [
+              {
+                "eligible": false,
+                "reportStatus": null,
+                "score": null,
+                "bureau": null,
+                "criteria": null,
+                "SCORE_LEVEL": null
+              }
+            ],
+            "paymentPlan": {
+              "withGSTUpTime": {
+                "startTime": "2019-12-20 14:10:00",
+                "endTime": "2019-12-21 14:10:00"
+              },
+              "withGST": true,
+              "membershipPlan": false,
+              "displayCreditAdvisorChannelSelectionPage": false,
+              "actualBaseAmount": 1299,
+              "paymentPlanWithGST": [
+                {
+                  "planType": "Basic_Plan_With_Tax",
+                  "advisoryService": 899,
+                  "actualBaseAmount": 1299,
+                  "additionalCall": 0,
+                  "GST": 18,
+                  "taxAmount": 162,
+                  "totalAmount": 1061,
+                  "additionalPack": [
+                    
+                  ],
+                  "isMembershipPlan": false,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Add_On_Only_Plan_With_Tax",
+                  "actualBaseAmount": 1299,
+                  "advisoryService": 0,
+                  "additionalCall": 199,
+                  "GST": 18,
+                  "taxAmount": 36,
+                  "totalAmount": 235,
+                  "additionalPack": [
+                    
+                  ],
+                  "isMembershipPlan": false,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Basic_Plan_With_Additional_Call_With_Tax",
+                  "actualBaseAmount": 1299,
+                  "advisoryService": 899,
+                  "additionalCall": 199,
+                  "GST": 18,
+                  "taxAmount": 198,
+                  "totalAmount": 1296,
+                  "additionalPack": [
+                    
+                  ],
+                  "isMembershipPlan": false,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Silver",
+                  "actualBaseAmount": 749,
+                  "advisoryService": 499,
+                  "additionalCall": 0,
+                  "additionalPack": [
+                    "Score_Improvement_Report",
+                    "Credit_Report_Additional_Call"
+                  ],
+                  "GST": 18,
+                  "taxAmount": 90,
+                  "totalAmount": 589,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Gold",
+                  "actualBaseAmount": 1199,
+                  "advisoryService": 799,
+                  "additionalCall": 0,
+                  "additionalPack": [
+                    "Credit_Report_Additional_Call"
+                  ],
+                  "GST": 18,
+                  "taxAmount": 144,
+                  "totalAmount": 943,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Platinum_Plus",
+                  "actualBaseAmount": 4999,
+                  "advisoryService": 2999,
+                  "additionalCall": 0,
+                  "additionalPack": [
+                    
+                  ],
+                  "GST": 18,
+                  "taxAmount": 540,
+                  "totalAmount": 3539,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Score_Improvement_Report",
+                  "actualBaseAmount": 299,
+                  "advisoryService": 199,
+                  "additionalCall": 0,
+                  "GST": 18,
+                  "taxAmount": 36,
+                  "totalAmount": 235,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": true
+                },
+                {
+                  "planType": "Credit_Report_Additional_Call",
+                  "actualBaseAmount": 399,
+                  "advisoryService": 199,
+                  "additionalCall": 0,
+                  "GST": 18,
+                  "taxAmount": 36,
+                  "totalAmount": 235,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": true
+                }
+              ],
+              "paymentPlanWithoutGST": [
+                {
+                  "planType": "Basic_Plan",
+                  "totalAmount": 499
+                },
+                {
+                  "planType": "Add_On_Only_Plan",
+                  "totalAmount": 99
+                },
+                {
+                  "planType": "Basic_Plan_With_Additional_Call",
+                  "totalAmount": 598
+                }
+              ]
+            }
+          },
+          "creditRectification": {
+            "eligible": false,
+            "paymentFee": null
+          },
+          "allowSwitchNumber": true
+        },
+        {
+          "creditBureauType": "EXPERIAN",
+          "applicationId": "2c6fb6a4-179d-58be-8354-5128ee0d25d5",
+          "status": "REPORT_RECEIVED",
+          "response": {
+            "creditReportInformation": {
+              "basic": {
+                "userId": "35c92e01-6dcc-4ff0-a4ef-130d702a8f82",
+                "creditBureauTypeId": 2,
+                "applicationId": "2c6fb6a4-179d-58be-8354-5128ee0d25d5",
+                "previousApplicationId": ""
+              },
+              "score": {
+                "current": {
+                  "applicationId": "2c6fb6a4-179d-58be-8354-5128ee0d25d5",
+                  "score": "788",
+                  "scoreBand": "GOOD",
+                  "lastUpdated": "23-09-2021",
+                  "nextReportDate": "05-02-2023",
+                  "reportCreatedAt": "05-12-2022 09:47:17",
+                  "scoreBandLabel": "GOOD",
+                  "scoreBandQuestion": "What does Good credit score mean?",
+                  "scoreBandDescription": "Great ! You are considered to be financially responsible when it comes to money management. Most of your loan payments are made on time. With your score and history , banks love you !"
+                }
+              },
+              "creditUtilization": {
+                "current": {
+                  "totalCreditUtilization": "-",
+                  "creditUtilizationBand": "N/A"
+                },
+                "status": "NEUTRAL"
+              },
+              "paymentHistory": {
+                "current": {
+                  "averagePayment": "-",
+                  "averagePaymentBand": "N/A"
+                },
+                "status": "NEUTRAL"
+              },
+              "totalAccount": {
+                "current": {
+                  "totalAccount": "-",
+                  "accountBand": "POOR",
+                  "activeAccounts": 0
+                },
+                "status": "NEUTRAL"
+              },
+              "creditHistoryAge": {
+                "current": {
+                  "accountAge": "-",
+                  "shortenedAccountAge": "Not Available",
+                  "accountAgeBand": "N/A"
+                },
+                "status": "NEUTRAL"
+              },
+              "creditEnquiries": {
+                "current": {
+                  "numberOfEnquiries": 0
+                }
+              },
+              "creditSeva": {
+                "applicationId": "2c6fb6a4-179d-58be-8354-5128ee0d25d5",
+                "improveCreditScore": false,
+                "applicationLeadId": ""
+              }
+            }
+          },
+          "applicationCreatedAt": "2022-12-05 09:47:17",
+          "creditAdvisor": {
+            "eligible": false,
+            "paymentFee": 1299,
+            "rankFactors": [
+              {
+                "eligible": false,
+                "reportStatus": null,
+                "score": null,
+                "bureau": null,
+                "criteria": null,
+                "SCORE_LEVEL": null
+              }
+            ],
+            "paymentPlan": {
+              "withGSTUpTime": {
+                "startTime": "2019-12-20 14:10:00",
+                "endTime": "2019-12-21 14:10:00"
+              },
+              "withGST": true,
+              "membershipPlan": false,
+              "displayCreditAdvisorChannelSelectionPage": false,
+              "actualBaseAmount": 1299,
+              "paymentPlanWithGST": [
+                {
+                  "planType": "Basic_Plan_With_Tax",
+                  "advisoryService": 899,
+                  "actualBaseAmount": 1299,
+                  "additionalCall": 0,
+                  "GST": 18,
+                  "taxAmount": 162,
+                  "totalAmount": 1061,
+                  "additionalPack": [
+                    
+                  ],
+                  "isMembershipPlan": false,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Add_On_Only_Plan_With_Tax",
+                  "actualBaseAmount": 1299,
+                  "advisoryService": 0,
+                  "additionalCall": 199,
+                  "GST": 18,
+                  "taxAmount": 36,
+                  "totalAmount": 235,
+                  "additionalPack": [
+                    
+                  ],
+                  "isMembershipPlan": false,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Basic_Plan_With_Additional_Call_With_Tax",
+                  "actualBaseAmount": 1299,
+                  "advisoryService": 899,
+                  "additionalCall": 199,
+                  "GST": 18,
+                  "taxAmount": 198,
+                  "totalAmount": 1296,
+                  "additionalPack": [
+                    
+                  ],
+                  "isMembershipPlan": false,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Silver",
+                  "actualBaseAmount": 749,
+                  "advisoryService": 499,
+                  "additionalCall": 0,
+                  "additionalPack": [
+                    "Score_Improvement_Report",
+                    "Credit_Report_Additional_Call"
+                  ],
+                  "GST": 18,
+                  "taxAmount": 90,
+                  "totalAmount": 589,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Gold",
+                  "actualBaseAmount": 1199,
+                  "advisoryService": 799,
+                  "additionalCall": 0,
+                  "additionalPack": [
+                    "Credit_Report_Additional_Call"
+                  ],
+                  "GST": 18,
+                  "taxAmount": 144,
+                  "totalAmount": 943,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Platinum_Plus",
+                  "actualBaseAmount": 4999,
+                  "advisoryService": 2999,
+                  "additionalCall": 0,
+                  "additionalPack": [
+                    
+                  ],
+                  "GST": 18,
+                  "taxAmount": 540,
+                  "totalAmount": 3539,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": false
+                },
+                {
+                  "planType": "Score_Improvement_Report",
+                  "actualBaseAmount": 299,
+                  "advisoryService": 199,
+                  "additionalCall": 0,
+                  "GST": 18,
+                  "taxAmount": 36,
+                  "totalAmount": 235,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": true
+                },
+                {
+                  "planType": "Credit_Report_Additional_Call",
+                  "actualBaseAmount": 399,
+                  "advisoryService": 199,
+                  "additionalCall": 0,
+                  "GST": 18,
+                  "taxAmount": 36,
+                  "totalAmount": 235,
+                  "isMembershipPlan": true,
+                  "isMembershipAddOnPlan": true
+                }
+              ],
+              "paymentPlanWithoutGST": [
+                {
+                  "planType": "Basic_Plan",
+                  "totalAmount": 499
+                },
+                {
+                  "planType": "Add_On_Only_Plan",
+                  "totalAmount": 99
+                },
+                {
+                  "planType": "Basic_Plan_With_Additional_Call",
+                  "totalAmount": 598
+                }
+              ]
+            }
+          },
+          "creditRectification": {
+            "eligible": false,
+            "paymentFee": null
+          },
+          "allowSwitchNumber": true
+        }
+      ],
+      "customerProfile": {
+        "customerProfileId": "2f597007-27ce-4a8c-b8c0-6a610f86116f",
+        "visitorId": "f7c85b99-ee71-4600-82f5-2218fda895d4",
+        "customerId": "89574a39-e00e-46c3-a69f-52f2fa10ce0b",
+        "userId": "35c92e01-6dcc-4ff0-a4ef-130d702a8f82",
+        "mobileNumber": "9561074260",
+        "cityId": "414",
+        "stateId": "28",
+        "dob": "1993-06-08 00:00:00",
+        "monthlyIncome": "0",
+        "employmentTypeId": 1,
+        "annualTurnover": 0,
+        "emailId": "jagruti@gmail.com",
+        "genderId": 1,
+        "firstName": "Jagruti",
+        "lastName": "Mirkute",
+        "pincode": "313001",
+        "addressLine1": "Udaipur",
+        "updatedAt": "2023-01-18T08:08:08.000Z",
+        "createdAt": "2021-08-20T05:36:00.000Z",
+        "isActive": 1,
+        "userUpdatedAt": "2023-01-18 13:38:08",
+        "panCard": "CXKPM4835Q",
+        "subscription": "1",
+        "leadId": "3192cdaf-85c2-4ec6-8f30-81891533552b"
+      },
+      "isRequestFromNonApp": "true",
+      "bureauScore": {
+        "EQUIFAX": {
+          "score": "583",
+          "reportStatus": "REPORT_RECEIVED",
+          "createdAt": "2022-12-05 09:47:17"
+        },
+        "EXPERIAN": {
+          "score": "788",
+          "reportStatus": "REPORT_RECEIVED",
+          "createdAt": "2022-12-05 09:47:17"
+        },
+        "HIGHMARK": {
+          "score": "626",
+          "reportStatus": "REPORT_RECEIVED",
+          "createdAt": "2023-01-18 08:08:07"
+        },
+        "CIBIL": {
+          "score": "757",
+          "reportStatus": "REPORT_RECEIVED",
+          "createdAt": "2023-01-18 08:08:07"
+        }
+      },
+      "creditAdvisor": {
+        "eligible": false,
+        "paymentFee": 1299,
+        "rankFactors": [
+          {
+            "eligible": false,
+            "reportStatus": null,
+            "score": null,
+            "bureau": null,
+            "criteria": null,
+            "SCORE_LEVEL": null
+          }
+        ],
+        "paymentPlan": {
+          "withGSTUpTime": {
+            "startTime": "2019-12-20 14:10:00",
+            "endTime": "2019-12-21 14:10:00"
+          },
+          "withGST": true,
+          "membershipPlan": false,
+          "displayCreditAdvisorChannelSelectionPage": false,
+          "actualBaseAmount": 1299,
+          "paymentPlanWithGST": [
+            {
+              "planType": "Basic_Plan_With_Tax",
+              "advisoryService": 899,
+              "actualBaseAmount": 1299,
+              "additionalCall": 0,
+              "GST": 18,
+              "taxAmount": 162,
+              "totalAmount": 1061,
+              "additionalPack": [
+                
+              ],
+              "isMembershipPlan": false,
+              "isMembershipAddOnPlan": false
+            },
+            {
+              "planType": "Add_On_Only_Plan_With_Tax",
+              "actualBaseAmount": 1299,
+              "advisoryService": 0,
+              "additionalCall": 199,
+              "GST": 18,
+              "taxAmount": 36,
+              "totalAmount": 235,
+              "additionalPack": [
+                
+              ],
+              "isMembershipPlan": false,
+              "isMembershipAddOnPlan": false
+            },
+            {
+              "planType": "Basic_Plan_With_Additional_Call_With_Tax",
+              "actualBaseAmount": 1299,
+              "advisoryService": 899,
+              "additionalCall": 199,
+              "GST": 18,
+              "taxAmount": 198,
+              "totalAmount": 1296,
+              "additionalPack": [
+                
+              ],
+              "isMembershipPlan": false,
+              "isMembershipAddOnPlan": false
+            },
+            {
+              "planType": "Silver",
+              "actualBaseAmount": 749,
+              "advisoryService": 499,
+              "additionalCall": 0,
+              "additionalPack": [
+                "Score_Improvement_Report",
+                "Credit_Report_Additional_Call"
+              ],
+              "GST": 18,
+              "taxAmount": 90,
+              "totalAmount": 589,
+              "isMembershipPlan": true,
+              "isMembershipAddOnPlan": false
+            },
+            {
+              "planType": "Gold",
+              "actualBaseAmount": 1199,
+              "advisoryService": 799,
+              "additionalCall": 0,
+              "additionalPack": [
+                "Credit_Report_Additional_Call"
+              ],
+              "GST": 18,
+              "taxAmount": 144,
+              "totalAmount": 943,
+              "isMembershipPlan": true,
+              "isMembershipAddOnPlan": false
+            },
+            {
+              "planType": "Platinum_Plus",
+              "actualBaseAmount": 4999,
+              "advisoryService": 2999,
+              "additionalCall": 0,
+              "additionalPack": [
+                
+              ],
+              "GST": 18,
+              "taxAmount": 540,
+              "totalAmount": 3539,
+              "isMembershipPlan": true,
+              "isMembershipAddOnPlan": false
+            },
+            {
+              "planType": "Score_Improvement_Report",
+              "actualBaseAmount": 299,
+              "advisoryService": 199,
+              "additionalCall": 0,
+              "GST": 18,
+              "taxAmount": 36,
+              "totalAmount": 235,
+              "isMembershipPlan": true,
+              "isMembershipAddOnPlan": true
+            },
+            {
+              "planType": "Credit_Report_Additional_Call",
+              "actualBaseAmount": 399,
+              "advisoryService": 199,
+              "additionalCall": 0,
+              "GST": 18,
+              "taxAmount": 36,
+              "totalAmount": 235,
+              "isMembershipPlan": true,
+              "isMembershipAddOnPlan": true
+            }
+          ],
+          "paymentPlanWithoutGST": [
+            {
+              "planType": "Basic_Plan",
+              "totalAmount": 499
+            },
+            {
+              "planType": "Add_On_Only_Plan",
+              "totalAmount": 99
+            },
+            {
+              "planType": "Basic_Plan_With_Additional_Call",
+              "totalAmount": 598
+            }
+          ]
+        }
+      },
+      "creditHealth": {
+        "eligible": true,
+        "addOnEligible": true,
+        "addOnCallEligibility": 30,
+        "lastPaymentDetails": {
+          "paymentStatus": "fail",
+          "paymentAmount": null,
+          "paymentLead": null,
+          "paymentPlan": null,
+          "leadTime": null,
+          "orderDate": null,
+          "subscriptionMaxValidity": 365,
+          "subscriptionValidity": 0,
+          "subscriptionMeasure": "Days",
+          "eligibleForRenewal": false,
+          "isPlanExpired": false,
+          "renewalSubscriptionValidity": 270,
+          "transactionId": null,
+          "paymentPlanList": [
+            
+          ]
+        },
+        "paymentPlan": {
+          "withGST": true,
+          "withGSTUpTime": {
+            "startTime": "2019-12-20 14:00:00",
+            "endTime": "2019-12-21 14:00:00"
+          },
+          "actualBaseAmount": 1199,
+          "paymentPlanWithGST": {
+            "planName": "CREDIT_HEALTH_PREMIUM_WITH_GST",
+            "baseAmount": 677,
+            "actualBaseAmount": 1199,
+            "totalAmount": 799,
+            "taxAmount": 122,
+            "tax": 18,
+            "validityInDays": 365
+          },
+          "addOnPaymentPlan": {
+            "planName": "CREDIT_HEALTH_PREMIUM_ADD_ON",
+            "baseAmount": 299,
+            "actualBaseAmount": 1199,
+            "totalAmount": 353,
+            "taxAmount": 54,
+            "tax": 18,
+            "validityInDays": 90
+          },
+          "creditProWithAddOnPlan": {
+            "planName": "CREDIT_HEALTH_WITH_ADD_ON_EXPERT_SESSION",
+            "baseAmount": 1058,
+            "actualBaseAmount": 2098,
+            "totalAmount": 1248,
+            "taxAmount": 190,
+            "tax": 18,
+            "validityInDays": 365
+          },
+          "addOnExpertSessionPlan": {
+            "planName": "CREDIT_HEALTH_EXPERT_SESSION_ADD_ON",
+            "baseAmount": 381,
+            "actualBaseAmount": 899,
+            "totalAmount": 450,
+            "taxAmount": 69,
+            "tax": 18,
+            "validityInDays": 30
+          },
+          "renewalsPaymentPlan": {
+            "planName": "CREDIT_HEALTH_RENEWALS_PLAN",
+            "baseAmount": 169,
+            "actualBaseAmount": 1199,
+            "totalAmount": 199,
+            "taxAmount": 30,
+            "tax": 18,
+            "validityInDays": 270
+          },
+          "renewalsWithExpertSessionPlan": {
+            "planName": "CREDIT_HEALTH_RENEWALS_WITH_EXPERT_SESSION",
+            "baseAmount": 550,
+            "actualBaseAmount": 2098,
+            "totalAmount": 649,
+            "taxAmount": 99,
+            "tax": 18,
+            "validityInDays": 270
+          },
+          "chrSubscriptionBasicPlan": {
+            "planName": "Credit_Health_Subscription_Basic_Plan",
+            "baseAmount": 423,
+            "actualBaseAmount": 1199,
+            "totalAmount": 499,
+            "taxAmount": 76,
+            "tax": 18,
+            "validityInDays": 90,
+            "bureausReport": "No",
+            "creditExpertCall": "No",
+            "expertAddOnPlanName": "Credit_Health_Subscription_Basic_Plan_Expert_Call",
+            "actualCreditExpertCallPrice": 899,
+            "creditExpertCallPrice": 450,
+            "isSubscriptionPlan": true
+          },
+          "chrSubscriptionStandardPlan": {
+            "planName": "Credit_Health_Subscription_Standard_Plan",
+            "baseAmount": 762,
+            "actualBaseAmount": 2994,
+            "totalAmount": 899,
+            "taxAmount": 137,
+            "tax": 18,
+            "validityInDays": 182,
+            "bureausReport": "Yes",
+            "creditExpertCall": "No",
+            "expertAddOnPlanName": "Credit_Health_Subscription_Standard_Plan_Expert_Call",
+            "actualCreditExpertCallPrice": 899,
+            "creditExpertCallPrice": 299,
+            "isSubscriptionPlan": true
+          },
+          "chrSubscriptionPremiumPlan": {
+            "planName": "Credit_Health_Subscription_Premium_Plan",
+            "baseAmount": 1016,
+            "actualBaseAmount": 5988,
+            "totalAmount": 1199,
+            "taxAmount": 183,
+            "tax": 18,
+            "validityInDays": 365,
+            "bureausReport": "Yes",
+            "creditExpertCall": "",
+            "actualCreditExpertCallPrice": 450,
+            "creditExpertCallPrice": 0,
+            "isSubscriptionPlan": true
+          },
+          "chrSubscriptionBasicPlanWithCreditExpert": {
+            "planName": "Credit_Health_Subscription_Basic_Plan_Expert_Call",
+            "baseAmount": 804,
+            "actualBaseAmount": 2098,
+            "totalAmount": 949,
+            "taxAmount": 145,
+            "tax": 18,
+            "validityInDays": 30,
+            "bureausReport": "No",
+            "creditExpertCall": "Available",
+            "actualCreditExpertCallPrice": 899,
+            "creditExpertCallPrice": 450,
+            "isSubscriptionPlan": true
+          },
+          "chrSubscriptionStandardPlanWithCreditExpert": {
+            "planName": "Credit_Health_Subscription_Standard_Plan_Expert_Call",
+            "baseAmount": 1015,
+            "actualBaseAmount": 3893,
+            "totalAmount": 1198,
+            "taxAmount": 183,
+            "tax": 18,
+            "validityInDays": 182,
+            "bureausReport": "Yes",
+            "creditExpertCall": "Available",
+            "actualCreditExpertCallPrice": 899,
+            "creditExpertCallPrice": 299,
+            "isSubscriptionPlan": true
+          },
+          "chrFreeTrialPlan": {
+            "planName": "CREDIT_HEALTH_FREE_TRIAL",
+            "baseAmount": 0,
+            "actualBaseAmount": 0,
+            "totalAmount": 0,
+            "taxAmount": 0,
+            "tax": 0,
+            "validityInDays": 30
+          },
+          "chrSubscribedFreeTrialPlan": {
+            "planName": "CREDIT_HEALTH_SUBSCRIBED_FREE_TRIAL",
+            "baseAmount": 84,
+            "actualBaseAmount": 84,
+            "totalAmount": 99,
+            "taxAmount": 15,
+            "tax": 18,
+            "validityInDays": 30
+          }
+        },
+        "subscriptionPlanEligible": true,
+        "isWinBackEligible": false,
+        "voucher": "VOUCHER_NOT_APPLICABLE_FOR_CHR_FREE_TRIAL",
+        "chrFreeTrial": {
+          "eligibleForCHRFreeTrial": true,
+          "subscribedCHRFreeTrial": false,
+          "disableChangePaymentMode": false,
+          "chrFreeTrialValidityInDays": 30,
+          "totalAmountPostCHRFreeTrial": 99,
+          "chrNextBillingDetail": null,
+          "chrFreeTrialBillingDetails": null,
+          "chrFreeTrialCancelOptions": [
+            "I don't understand the service",
+            "I understand it, but don't find it useful",
+            "It wasn't what i expected",
+            "I was only browsing",
+            "It's too expensive",
+            "I'm using another service",
+            "Other (please specify)"
+          ]
+        }
+      },
+      "creditAdvisorEligibilty": false,
+      "languages": {
+        "english": {
+          "label": "English",
+          "value": "en"
+        },
+        "hindi": {
+          "label": "हिंदी",
+          "value": "hindi"
+        },
+        "marathi": {
+          "label": "मराठी",
+          "value": "marathi"
+        },
+        "kannada": {
+          "label": "ಕನ್ನಡ",
+          "value": "kannada"
+        },
+        "telugu": {
+          "label": "తెలుగు",
+          "value": "telugu"
+        }
+      },
+      "vernacularConfiguration": {
+        "pdf": {
+          "restrictLanguages": true,
+          "restrictedLanguagesList": [
+            "english",
+            "hindi",
+            "marathi",
+            "kannada",
+            "telugu"
+          ],
+          "mobileNumbers": [
+            
+          ]
+        }
+      },
+      "vernacularSupport": {
+        "switch": true,
+        "timeBasedSwitch": false,
+        "duration": {
+          "startTime": "2019-12-04 10:00:00",
+          "stopTime": "2019-12-05 12:00:00"
+        }
+      },
+      "stickyCreditAssistButton": true,
+      "collectionsPaymentPlan": {
+        "withGST": true,
+        "withGSTUpTime": {
+          "startTime": "2019-12-20 14:00:00",
+          "endTime": "2019-12-21 14:00:00"
+        },
+        "actualBaseAmount": 899,
+        "paymentPlanWithGST": {
+          "planName": "ALL_ACCOUNTS_WITH_GST",
+          "baseAmount": 899,
+          "totalAmount": 1061,
+          "taxAmount": 162,
+          "tax": 18
+        },
+        "paymentPlanWithoutGST": {
+          "planName": "ALL_ACCOUNTS",
+          "totalAmount": 899
+        }
+      },
+      "bureauTabOrderV2": {
+        "firstViewBureau": "HIGHMARK",
+        "sortedBureauData": [
+          "CIBIL",
+          "EXPERIAN",
+          "HIGHMARK",
+          "EQUIFAX"
+        ]
+      },
+      "customerPdfReportStatus": {
+        "enablePdfInsights": false
+      },
+      "onDemandRefreshDetails": {
+        "onDemandRefreshEligible": false,
+        "priorityBureau": null
+      },
+      "isReapplyForSixMonth": false,
+      "reapplyBureauForSixMonth": [
+        
+      ],
+      "reapplyBureauData": {
+        "isReapplyBureauEligibile": false,
+        "reapplyBureauList": [
+          
+        ],
+        "reapplyType": 1
+      },
+      "additionalBureauRefresh": {
+        "enableAdditionalBureauRefresh": true,
+        "enableAdditionalBureauOnDemandRefresh": true,
+        "bureauToRefresh": "CIBIL",
+        "bureauOnDemand": [
+          "HIGHMARK",
+          "EQUIFAX"
+        ],
+        "showStrip": false
+      },
+      "accountDeletionDetail": null,
+      "savingsPower": {
+        "eligible": false
+      }
+    }
+  }

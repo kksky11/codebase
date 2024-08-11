@@ -1,0 +1,23 @@
+@import "styles/config.scss";
+body{   
+    &.CoreModalShow{
+        // filter: blur(8px);-webkit-filter: blur(8px);
+        // &:not(.coreModalContainer){
+        //     filter: blur(0px);-webkit-filter: blur(0px);
+        // }
+    }
+}
+.RootTemplate{background: #f7f8fa;
+    .RootTemplateContainer{
+        .sideBarContainer{}
+        .mainContainer{}
+    }
+}
+@media (max-width:767px) {
+    .RootTemplate{
+        .RootTemplateContainer{ padding:0px;
+            .sideBarContainer{display: none;}
+            .mainContainer{}
+        }
+    } 
+}

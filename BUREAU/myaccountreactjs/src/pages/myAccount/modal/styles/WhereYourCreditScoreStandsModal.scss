@@ -1,0 +1,57 @@
+@import "styles/config.scss";
+.WhereYourCreditScoreStandsModal{ 
+    .modalWrapper{max-width: 360px; padding:24px 16px;
+        .modalHead{
+            &.noHeader{
+                .closeIcon{ left: 40%;right: 0;top: -56px;}
+            }
+        }
+        .title{ margin: 0 0px 16px;  display: flex; align-items: center; justify-content: flex-start; font-size: 16px; line-height: 22px; color: $SecondaryColor; padding-left: 30px; position: relative;
+            &:before{content: ''; position: absolute; left: 0px; height: 24px; width:24px; background-image: url('/images/icons/rankingIcon.svg');background-repeat: no-repeat;background-position: left; }            
+        }
+        .scoreDetails{margin: 8px 0px 16px; text-align: center; padding:16px; box-shadow: 0 1px 4px 0 rgba(0,0,0,0.08), 0 4px 12px 0 rgba(56,108,205,0.15); border-radius: 8px;
+           .score{
+            .scoreName{margin: 0px; display: flex; align-items: center; justify-content: center; font-size: 14px; line-height: 18px; color: $SecondaryColor;
+                img{height: 10px; width: auto; padding: 0px 6px;}
+              }
+              .scoreBand{margin: 0px; font-size: 22px; line-height: 28px; color: $SecondaryColor;
+                  span{
+                      &.good,&.excellent{color:#00BA7A;}
+                      &.poor,&.average{color:#D78700;}
+                      &.low,&.fair{color:#F43939;}
+                  }
+              }
+           }
+           .separator{margin: 16px 0px; height: 1px; width: 100%; background: $SecondaryColor-1;}
+           .scoreInfo{display: flex; align-items: center; justify-content: space-between;
+                ._item{ max-width: 45%;
+                    ._title{text-align: left;font-size: 12px; line-height: 18px; color: $SecondaryColor;}                
+                    .progress{ margin: 10px 0px; background: $SecondaryColor-1; height: 4px; min-width: 100%; border-radius:3px;
+                        &.active{background: #00BA7A;  min-width: 69%; }
+                    }
+                }  
+           }
+            
+        }
+        .infoText{text-align: justify; font-size: 10px; line-height: 16px; color: $SecondaryColor;}
+        .buttonContainer{text-align: center; margin: 24px auto 0; width: 100%;
+            .scoreFactorsBtn{background:transparent; color: $SecondaryLightColor; font-size: 12px;}
+        }
+    }
+}
+
+@media (max-width:767px) {
+    .WhereYourCreditScoreStandsModal{ 
+        .modalWrapper{max-width: 100%; padding: 0px;
+            .modalHead{
+                &.noHeader{ background: $lightBackground;
+                    .title{padding: 0px;&:before{content: ''; background: none;} }
+                    .closeIcon{ }
+                }
+            }
+            .title{
+                // &:before{content: ''; background: none;}  
+            }
+        } 
+    }
+}

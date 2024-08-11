@@ -1,0 +1,161 @@
+@import "./config.scss"; 
+
+.loaderSkeleton { width: 100%;
+    .c-skeleton { display: flex; align-items: flex-start; padding: 10px 10px 8px; background: $whiteColor;border-radius: 6px;
+        border: 1px solid $SecondaryColor-1; margin-bottom: 16px;}
+    .c-skeleton_figure {  margin-right: 1em; flex-grow: 0; flex-shrink: 0; line-height: 1;width: 90px; height: 50px; }
+    .c-skeleton_body { flex-grow: 1; flex-shrink: 1; display: flex;
+        .c-skeleton_div {flex: 0 0 15%;
+            &:first-child { flex: 0 0 40%; }
+            &.skeleton_title {
+                .c-skeleton__text {height: 1.4em;}
+            }
+            &.skeleton_subText {
+                .c-skeleton__text {height: 1em;width: 60%;}
+            }
+            &.skeleton_button {
+                .c-skeleton__text {height: 2em;width: 70%;}
+            }
+        }
+        .skeleton_subText_wrapper {flex-grow: 1; flex-shrink: 1; display: flex;
+            .c-skeleton_div { flex: 0 0 50%;}
+        }
+    }
+    .container{width: 100%;margin-right: auto;margin-left: auto;
+        .row{display: flex;flex-wrap: wrap;}
+
+    }
+    &.apply{
+        .container{width: 100%;  max-width: 100%;display: flex;
+            .screen_body,
+            .screen_header{height: 100vh; margin: 0px;border-radius: 0px;}
+            .screen_header{width: 41.66666667%;  
+                .c-skeleton_body{padding: 0px 16px 0px 0px; margin: 0px; border-radius: 0px;}
+            }
+            .screen_body{width:58.33333333%;  
+                .screen_body_leftmenu{padding: 0px 0px 16px 0px; border-radius: 0px; max-height: 10vh;}
+                .screen_body_content{padding: 0px; border-radius: 0px; max-height: 90vh;}
+            }
+        }
+    }
+    &.creditSavingsSkeleton{width: 100%; margin: 0px auto; max-width: 941px;}
+    &.PersonalDetailsSkeleton{ border: 0px; box-shadow: none;
+        .tabHeading{ display: flex; 
+            .c-skeleton__text{border-radius: 8px;min-height: 30px; margin:12px 0px;margin-right: 24px; width:100px;}
+        }
+        .tabData{display: flex;align-items: flex-start;justify-content: flex-start; flex-wrap: wrap;
+            .c-skeleton__figure{border-radius: 8px; min-height: 140px; width:calc(33% - 16px);margin:12px 0px; margin-right: 24px;
+                &:nth-child(3n){margin-right: 0px;} 
+            }
+        }
+    }  
+    &.fullPageSkeleton {width: 100%; height: 100%; min-height: 100vh;
+        .screen_header { height: 10vh; margin: 1vh 0 4vh 0; width: 100%; 
+            .c-skeleton_body {  height: 100%; width: 100%; 
+                .c-skeleton__text { height: 100%; width: 100%; }
+            }
+        }
+        .screen_body { height: calc(100vh - 22vh); 
+            .screen_body_leftmenu, 
+            .screen_body_content {height: 100%; width: 100%; 
+                .c-skeleton_body { height: 100%; width: 100%; 
+                    .c-skeleton__text { height: 100%; width: 100%; }
+                }
+            }
+        }
+        
+        
+    }
+  
+    &.myAccountsSkeleton{margin-bottom: 16px; padding:$commonPadding ; box-shadow: none; border-radius:$commonBorderRadius;background-color: #FFFFFF;overflow: auto;
+        .tabHeading{ display: flex; 
+            .c-skeleton__text{border-radius: 8px;min-height: 30px; margin:0px 0px;margin-right: 24px; width:100px;}
+        }
+        .tabData{display: flex;align-items: flex-start;justify-content: flex-start; flex-wrap: wrap;
+            .c-skeleton__figure{border-radius: 8px; min-height: 200px; width:100%; margin: 16px 0px 0px;
+                &:nth-child(3n){margin-right: 0px;} 
+            }
+        }
+    } 
+    &.productCardSkeleton{width: 100%;
+        .title{  margin:0px 0px 16px;  width:200px; padding:8px; background-color:$whiteColor;border-radius:$commonBorderRadius;
+            .c-skeleton__text{padding: 0px;height: 30px; margin: 0px;width: 100%;}
+        }
+        .propductData{margin-bottom: 16px; padding:$commonPadding ; box-shadow: none; border-radius:$commonBorderRadius;background-color: #FFFFFF;overflow: auto;
+           .c-skeleton__figure {height: 130px;}
+        }
+    }
+    
+
+    /* ==========================================================================
+    SKELETON ANNIMATION
+    ========================================================================== */
+    
+      
+      %c-skeleton__animation {      
+        animation-fill-mode      : forwards;        
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+        animation-name    : placeHolderShimmer;
+        background-color  : $loaderSkeletonColor;
+        background-image  : linear-gradient(to right, $loaderSkeletonColor 8%, $stepsBorderColor 18%, $loaderSkeletonColor 33%);
+        background-size   : 800px 104px;
+      }
+      
+      @keyframes placeHolderShimmer {
+        0% {
+          background-position: -468px 0
+        }
+        100% {
+          background-position: 350px 0
+        }
+      }
+      
+      
+      .c-skeleton__figure {width: 100%;height: 100%;border-radius: 4px;min-height: 20px;
+        @extend %c-skeleton__animation;
+      }
+      .c-skeleton__text {height: 0.8em;width: 95%;margin: 0 auto 0.3em;border-radius: 4px;
+        @extend %c-skeleton__animation;
+      }
+      .c-skeleton__button {height: 0.8em;width: 95%;margin: 0 auto 0.3em;border-radius: 4px;
+        @extend %c-skeleton__animation;
+      }
+}
+
+@media only screen and (max-width: 767px) {
+    .loaderSkeleton {
+        .c-skeleton { margin-bottom: 0; border: none;
+            .c-skeleton_figure { width: 70px; height: 40px; }
+            .c-skeleton_body { display: block;
+                .skeleton_title {
+                    .c-skeleton__text { &:last-child { display: none; } }
+                }
+                .skeleton_subText_third, .skeleton_button { display: none; }
+                .c-skeleton__text {margin: 0 0 0.3em;}
+            }
+        }
+        &.apply{
+            .container{width: 100%;  max-width: 100%;display: flex; flex-direction: column-reverse;
+                .screen_header{height: 20vh; width: 100%; padding: 0px 0px 16px 0px;}
+                .screen_body{height: 80vh;  width: 100%; padding: 0px;}
+            }
+        }
+        &.fullPageSkeleton {box-shadow: none; border: none; margin: 0;
+            .screen_body_leftmenu{display: none;}
+        }
+        &.PersonalDetailsSkeleton{ 
+            .tabHeading{  
+                .c-skeleton__text{min-height: 30px; margin:12px 0px;margin-right: 24px; width:100px;}
+            }
+            .tabData{
+                .c-skeleton__figure{width: 100%;  margin:12px 0px; margin-right: 0px;
+                    &:nth-child(3n){margin-right: 0px;} 
+                }
+            }           
+        } 
+        &.creditSavingsSkeleton{padding: 8px;}
+        &.creditSavingstransactions{padding: 0px;}
+    }
+}

@@ -1,0 +1,70 @@
+@import "styles/config.scss";
+.CreditFactors{ margin-bottom:$boxMarginBottom;  
+    .factorContainer{box-shadow:$commonBoxShadow; background: $whiteColor; border-radius: $boxBorderRadius; 
+        .factorList{ padding: 0px; margin: 0px; 
+            .list{cursor: pointer; position: relative; border-left: 2px solid $whiteColor;padding: 16px 65px 16px 24px; border-bottom:1px solid $SecondaryColor-1; display: flex; align-items: center; justify-content: space-between;
+                ._info{margin: 0px 0px 4px; text-transform: capitalize;font-weight: 600;}
+                .img{margin-right: rem(12);}
+                .factorName{ color: $SecondaryColor; font-size:rem(16); line-height:rem(24);}
+                .impact{ color: $SecondaryColor-7; font-size:rem(14); line-height:rem(18);}
+                .impactValue{color: $SecondaryColor-7; font-size:rem(14); line-height:rem(16);}
+                .paramValue{color: $SecondaryColor; font-size:rem(18); line-height:rem(16);margin-bottom:rem(12); 
+                    &.NA{margin: 0px;}
+                }
+                .paramName{color: $SecondaryColor-7; font-size:rem(14); line-height:rem(16);}
+                .infoContainer{ display: flex; align-items: center; justify-content: space-between;}
+                .valueContainer{ text-align: right;}
+                .good,.excellent{color:#00BA7A;}
+                .poor,.average{color:#D78700;}
+                .fair{color:#F43939;}
+                &:first-child{border-top-left-radius: $boxBorderRadius; }
+                &:last-child{border-bottom: 0px;border-bottom-left-radius: $boxBorderRadius; }
+                &:hover{background:#F9FAFE; border-left: 2px solid $SecondaryLightColor;}
+                &:before{content: ''; position: absolute; right: 24px; height: 24px; width:24px; background-image: url('/images/icons/rightCircle-arrow.svg');background-repeat: no-repeat;background-position: right; }
+                
+            }
+        }
+    }
+    ._Banner{
+        &.creditHealthReport{box-shadow:$commonBoxShadow; padding: 24px; height: 422px; border-radius: $boxBorderRadius; background: linear-gradient(315.63deg, #E1E3FF 0%, #EEE1FC 60.79%, #FFDEF9 100%);
+           &.single{height: 390px; display: flex;flex-direction: column;justify-content: space-around;}           
+           .imageContainer{margin: 24px auto; width:160px; height: 160px;
+             img{height: 100%; width:auto;}
+            } 
+           .infoContainer{margin: 0px 0px 24px;                
+                .title{margin: 0px 0px 16px; font-weight: 600; font-size: 20px; line-height: 28px; color: $SecondaryColor;}
+                .infoText{list-style: none; padding:0px; margin: 0px; font-size: 12px; line-height: 22px;
+                    .list{position: relative;padding-left: 16px;color: $SecondaryColor;margin: 0px 0px 16px;
+                         &:before{content: ''; position: absolute; left: 0px; top:2px; height: 18px; width:22px; background-image: url('/images/icons/tick.svg');background-repeat: no-repeat;background-position: left; }
+                    }
+                }
+                .buttonContainer{
+                    .getCreditHealthBtn{background: $whiteColor; color: $SecondaryLightColor;  width: 100%; border-radius: 8px; height: 44px;display: flex;align-items: center;justify-content: space-around;}
+                }
+            }            
+        }
+    }
+}
+@media (max-width:767px) {
+    .CreditFactors{ margin-bottom: 0px;
+        .sectionHeading{padding: 24px 16px;background:$whiteColor;margin: 0px;}
+        .factorContainer{ border-radius:0px;
+            .factorList{
+                .list{padding: 16px 65px 16px 16px;} 
+            }
+        }
+        ._Banner{
+            &.creditHealthReport{ height: auto;margin: 8px 16px 16px;padding: 24px 16px;
+                &.single{justify-content:space-between;align-items: center; flex-direction: row-reverse; height: auto;}
+                .imageContainer{width:105px; height: 110px; margin: 0 auto;}
+                .infoContainer{ margin-bottom: 0px;                  
+                    .title{font-size: 16px; line-height: 24px;}
+                    .infoText{font-size: 10px; line-height: 18px;margin-bottom: 16px;
+                        .list{margin: 0px 0px 8px;}
+                    }
+                    .buttonContainer{}
+                }
+            }
+        }
+    }
+}

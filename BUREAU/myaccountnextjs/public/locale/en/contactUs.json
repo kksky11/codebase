@@ -1,0 +1,37 @@
+{
+    "common": {
+
+    },
+    "contactUs": {
+        "heading": "How can we help you?",
+        "message": {
+            "part1": "It looks like you are experiencing problem with our service. Don’t worry! We’re here to help."
+        }
+    },
+    "faq": {
+        "heading": "Visit FAQ",
+        "message": {
+            "part1": "For any questions regarding",
+            "part2": "your Credit report"
+        }
+    },
+    "email": {
+        "heading": "Email",
+        "message": {
+            "part1": "email to us related to your Credit Report"
+        }
+    },
+    "tollFree": {
+        "heading": "Toll Free",
+        "message": {
+            "part1":"Lines are open Mon-Sat from",
+            "part2":"9:30 am – 6:30 pm"
+        }
+    },
+    "whatsapp": {
+        "heading": "Whatsapp",
+        "message": {
+            "part1":"You can even reach out to us via WhatsApp."
+        }
+    }
+}

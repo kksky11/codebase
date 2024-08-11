@@ -1,0 +1,114 @@
+@import "styles/config.scss";
+
+.RectificationBanner{ margin-bottom: 40px; overflow: hidden;border-radius: $commonBorderRadius; background-color: $whiteColor;box-shadow: 0 2px 19px 0 #EDEDED;background-image: url('/images/banner/rectificationBanner/rectificationBanner.svg');background-repeat: no-repeat;background-position: right 0% top 0%;
+    .infoContainer{padding:24px; 
+        .attention{display: flex; align-items: center; margin-bottom: 24px; padding:8px; background: rgba(255,219,221, 0.38); border-radius: 30px; height: 36px; max-width: 457px; color: #8A3737;font-size: 14px; font-weight: 600; line-height: 18px;
+         img{height:24px; margin-right: 4px;}
+        }
+        ._LogoTitle{ height: 30px; width: auto;margin-bottom: 8px;
+            img{height: 30px; width: auto;}
+        }
+        ._infoTitle{color:$SecondaryColor; font-size: 16px;font-weight: 600;letter-spacing: 0;line-height: 24px; margin-bottom: 24px;}
+        ._infoFeatures{ max-width: 80%; padding:0px; margin: 0px; list-style: none;  display: flex; align-items:flex-start; justify-content: space-between; flex-wrap: wrap;
+            li{color:$SecondaryColor; text-align: left; padding-left: 32px; margin-bottom: 16px;font-size: 14px; line-height: 22px; font-weight: 600; position: relative;               
+                &::before{content: ''; position: absolute; left: 0px; top: -2px;}
+                &:nth-child(1){ &:before{content: url("/images/banner/rectificationBanner/personalizedAnalysis.svg");}}
+                &:nth-child(2){ &:before{content: url("/images/banner/rectificationBanner/tips.svg");}}               
+            }
+        }
+    }
+    .accountListSection{padding:24px; border-top: 1px solid $SecondaryColor-1;
+        ._title{ margin: 0px 0px 24px; color:$SecondaryColor; font-size: 16px;font-weight: 600;letter-spacing: 0;line-height: 24px;}
+        .accountList{ 
+            .accountCard{position: relative;  min-height:106px; margin-bottom:12px; border: 1px solid $SecondaryColor-1; background: $whiteColor; border-radius: 8px;
+                &:last-child{margin-bottom: 0px;}
+                .cardBody{padding: 16px; display: flex; align-items: center; justify-content: space-between;
+                   .cardItem{display: flex;align-items: self-end; justify-content: flex-start;flex-direction: column; color:$SecondaryColor; position: relative;font-size: 14px; font-weight: 600; line-height: 18px;
+                        &:before{content: attr(title);font-size: 12px; line-height: 16px; font-weight: 600; padding-left: 0px; color:$SecondaryColor-7; margin-bottom: 6px;}
+                        &._name{ flex-direction: row;
+                            .bankLogo{ margin-right: 6px;
+                                img{ width: 28px; height: auto;}
+                            }
+                            .bankInfo{
+                                .bankName{font-size: 14px;font-weight: 600;line-height: 20px;}
+                                .accountType{ font-size: 10px;font-weight: 600;line-height: 16px;
+                                    &:before{content: attr(title) " :"; color:$SecondaryColor-7;padding-right: 4px;}
+                                }
+                            }
+                        }
+                        &._amount{ align-items: flex-start; 
+                            &::before{}
+                            span{font-weight: normal; padding-right: 2px;}
+                        }
+                        &._lastUpdate{align-items: flex-start;}
+                        &._payment{ color: $failed;}
+                   }
+                    
+                }
+                .cardFooter{display: flex; align-items: center; justify-content: center; position: relative; bottom: -2px; left: 0px; width: 100%; height: 32px;border-radius: 0 0 8px 8px; background-color: #F4F6F8;
+                    &:before{content: "Reported in:";font-size: 12px; line-height: 16px; font-weight: 600; padding-left: 0px; color:$SecondaryColor-7; }
+                }
+            }
+        }
+    }
+    .buttonContainer{padding: 0px 24px 24px; display: flex; align-items: center; justify-content: center; flex-direction: column;
+        .btn{ margin-bottom: 12px;
+            &.bookACallNow{text-transform: uppercase; color: $whiteColor; font-size: 16px;font-weight: 600;line-height: 20px;  height: 44px;width: 280px;border-radius: 8px;background: linear-gradient(161.41deg, #C811F5 0%, #590894 100%)}
+           }
+        ._agreeLink{text-align: center; color: $SecondaryColor; font-size: 10px;font-weight: 600;letter-spacing: 0;line-height: 16px;
+            a{ color: $SecondaryLightColor; text-decoration: none;
+                 &:hover{color:$SecondaryLightColor-7;}
+            }
+        }
+    }
+    
+}
+@media (max-width:767px) {
+    .RectificationBanner{margin-bottom: 16px; border-radius: 0px;background-image: url('/images/banner/rectificationBanner/rectificationBanner_mobile.svg'); background-position: right 16px top 90px;
+        .infoContainer{padding:24px 16px;
+            .attention{ font-size: 12px; max-width: 100%;height: auto;border-radius: 26px; margin-bottom: 42px; 
+                img{height: 38px; margin-right: 4px;}
+            }
+            ._infoTitle{max-width: 70%; font-size: 12px; line-height: 18px;}
+            ._infoFeatures{ max-width: 100%; 
+                li{width: 100%;
+                    &::before{content: ''; position: absolute; left: 0px; top: 5px;}
+                  &:last-child{margin-bottom: 0px;}
+                }
+            }
+        }
+        .accountListSection{ padding: 16px;
+            .accountList{ 
+                .accountCard{
+                    .cardBody{flex-wrap: wrap; 
+                        .cardItem{width: 50%; margin-bottom:16px; font-size: 12px;
+                            &::before{font-size: 10px; line-height: 11px; margin-bottom: 4px; }
+                            &._name{ width: 60%;
+                                .bankLogo{ 
+                                    img{ }
+                                }
+                                .bankInfo{
+                                    .bankName{}
+                                    .accountType{  color:$SecondaryColor;
+                                        &:before{ color: $SecondaryLightColor;}
+                                    }
+                                }
+                            }
+                            &._amount{width: 40%; align-items: flex-end;
+                                &::before{}
+                            }
+                            &._lastUpdate{margin-bottom:0px;  width: 50%; align-items: flex-start; padding-left: 34px;}
+                            &._payment{margin-bottom: 0px; width: 35%; align-items: flex-end; }
+                        }
+                    }
+                    .cardFooter{}
+                }
+            }
+        }
+        .buttonContainer{padding: 0px 16px 16px;
+            .btn{
+                &.bookACallNow{width: 100%;}
+            }
+        }
+    }
+}

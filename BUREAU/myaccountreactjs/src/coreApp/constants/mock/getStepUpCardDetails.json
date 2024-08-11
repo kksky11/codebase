@@ -1,0 +1,25 @@
+{
+    "status": true,
+    "statusCode": "0",
+    "statusMessage": "Success",
+    "response": {
+      "status": true,
+      "statusCode": "success",
+      "statusMessage": "Success",
+      "response": {
+        "minimumAmountDue": "1500.00",
+        "totalAmountDue": "5000.00",
+        "dueDate": "10-05-2020",
+        "statementPeriod": null,
+        "cardId": "e1d4998d-27be-4b25-9465-537dca11adde",
+        "createdAt": "2020-07-20",
+        "initialLimit": "10000.00",
+        "totalLimit": "0.00",
+        "availableLimit": "0.00",
+        "utilizedLimit": "0.00",
+        "state": "CREATED",
+        "partialLast4": "0204",
+        "redirectionUrl": "https://staging-securedcards.paisabazaar.com/stepupcard/dashboard/customer-login"
+      }
+    }
+  }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>40ABE7C1-7DE5-4E75-B231-BD5E06CD2FC6@1x</title>
+    <g id="Credit-Alerts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---credit-alerts-page" transform="translate(-435.000000, -395.000000)">
+            <g id="Group-3" transform="translate(435.000000, 395.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" opacity="0.0599999987" x="0" y="0" width="36" height="36" rx="6"></rect>
+                <g id="vuesax/linear/building-3" transform="translate(9.000000, 9.000000)" stroke="#052F5F" stroke-dasharray="0,0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3">
+                    <g id="building-3">
+                        <line x1="0" y1="17.6378906" x2="18" y2="17.6378906" id="Vector"></line>
+                        <path d="M0.909008789,17.6467672 L0.9,4.20076547 C0.9,3.59776545 1.20601317,3.03973471 1.70101318,2.7067347 L5.30101318,0.303749979 C5.9040132,-0.101250011 6.6959868,-0.101250011 7.29898682,0.303749979 L10.8989868,2.7067347 C11.4029868,3.03973471 11.7,3.59776545 11.7,4.20076547 L11.7090088,17.6287497 L0.909008789,17.6467672 Z" id="Vector" fill-rule="nonzero"></path>
+                        <line x1="16.1819824" y1="17.6468994" x2="16.1819824" y2="14.0378906" id="Vector"></line>
+                        <path d="M14.4,10.4378906 L14.4,12.2378906 C14.4,13.2278906 15.21,14.0378906 16.2,14.0378906 C17.19,14.0378906 18,13.2278906 18,12.2378906 L18,10.4378906 C18,9.4478906 17.19,8.63789062 16.2,8.63789062 C15.21,8.63789062 14.4,9.4478906 14.4,10.4378906 Z" id="Vector" fill-rule="nonzero"></path>
+                        <line x1="0.9" y1="10.4378906" x2="11.7" y2="10.4378906" id="Vector"></line>
+                        <line x1="6.3" y1="17.6378906" x2="6.3" y2="14.2628906" id="Vector"></line>
+                        <path d="M6.3,7.28789062 C5.55441558,7.28789062 4.95,6.68347505 4.95,5.93789062 C4.95,5.1923062 5.55441558,4.58789062 6.3,4.58789062 C7.04558442,4.58789062 7.65,5.1923062 7.65,5.93789062 C7.65,6.68347505 7.04558442,7.28789062 6.3,7.28789062 Z" id="Vector"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

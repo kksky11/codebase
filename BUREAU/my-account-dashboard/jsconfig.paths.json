@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@styles/*": ["/styles/*"],
+            "@layout/*": ["/src/layout/*"],
+            "@components/*": ["/src/components/*"],
+            "@coreComponents/*": ["/src/components/core/*"],
+            "@views/*": ["/src/components/views/*"],
+            "@skeletonLoader/*": ["/src/components/core/skeletonLoader/*"],
+            "@header/*": ["/src/components/core/header/*"],
+            "@footer/*": ["/src/components/core/footer/*"],
+            "@leftMenu/*": ["/src/components/core/leftMenu/*"],
+            "@constants/*": ["/src/constants/*"],
+            "@config/*": ["/src/config/*"],
+            "@store/*": ["/src/store/*"],
+            "@utils/*"          : ["/src/utils/*"],
+            "@localStorage/*": ["/src/core//*"],
+            "@analytics/*": ["/src/analytics/*"],
+            "@locale/*": ["/public/locale/*"]
+        }
+    }
+}

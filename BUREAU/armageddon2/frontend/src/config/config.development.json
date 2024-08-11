@@ -1,0 +1,310 @@
+{
+    "CLEVERTAP" : {
+        "SWITCH"              : false,
+        "ACCOUNT_ID"          : "TEST-Z8W-498-894Z",
+        "VERSION"             : "1.1"
+    },
+    "GA" : {
+        "SWITCH"              : true,
+        "ACCOUNT_ID"          : "UA-34155195-1"
+    },
+    "FACEBOOK_APP_ID"         : "850592368456057",
+    "GOOGLE_AUTH_TOKEN"       : "273985405045-e86brr01q4eka0p9395l1esl3qoq6edi.apps.googleusercontent.com",
+    "SSO"                     : {
+        "SWITCH"              : true,
+        "OTP_MODAL"           : false,
+        "BUREAU_TOKEN"        : "LSXJD09COJK2EQUGMBJTD3219X636RD9",
+        "DOMAIN"              : "paisabazaar.com",
+        "DEFAULT_TTL"         : 180,
+        "V2"                  : true,
+        "BUREAU_DOMAIN"       : "local.paisabazaar.com",
+        "MODAL_VIEW"          : false,
+        "OPTIONS"             :{
+            "journeyType"     : "JOURNEY",
+            "screenType"      : "2",
+            "version"         : "2"   
+        },
+        "SSOV2"               : {
+            "environment"           : "development",
+            "accountsUrl"           : "https://staging-accounts.paisabazaar.com",
+            "clientId"              : "6dff40ff-65e4-40fe-8b40-01be8b1698d6",
+            "redirectLoginUri"      : "http://local.paisabazaar.com:8095/bureau/authorize",
+            "redirectLogoutUri"     : "http://local.paisabazaar.com:8095/bureau?logout=true",
+            "scope"                 : "bureauSitePlatformApi",
+            "siteId"                : "b9df9faa-0bab-4c6c-bb77-ebe87bc9b2da",
+            "encryptionKey"         : ",lL}qHg.LWC$6$E{"
+        }
+    },
+    "MOCKAPI"                 : {
+        "SWITCH"              : true,
+        "products"            : {
+            "myAccount"       : true,
+            "creditSavings"   : true
+        }
+    },
+    "SITE_PLATEFORM_URL"            : "https://staging-api2.paisabazaar.com/BSP",
+    "SITE_PLATEFORM_URL1"           : "https://staging-api2.paisabazaar.com/BSP",
+    "MYACCOUNT_SITE_PLATEFORM_URL"  : "https://staging-api-internal.paisabazaar.com/MSP",
+    "PUCKAR_URL"                    : "https://staging-mars.paisabazaar.com",
+    "PUCKAR_ACQUISTION_CONTRACT_ID" : "27d53ae7-e1d6-42cf-b8a0-5ac78f7fcf4d",
+    "PUCKAR_DASHBOARD_CONTRACT_ID"  : "8ed8e503-de76-452a-97f9-7955c86180e3",
+    "PUCKAR_CREDIT_ASSIST_CONTRACT_ID": "51da3482-9739-4dea-8e06-c313d4482be9",
+    "SHOW_TNC_THROUGH_PUCKAR"       : true,
+    "FORCE_HTTPS_REDIRECTION"       : false,
+    "REDIRECT_TO_OLD_PLATFORM"      : false,
+    "MY_ACCOUNT" : {
+        "DASHBOARD"                   : "https://mutualfund.paisabazaar.com/investor-dashboard",
+        "DIGITAL_GOLD_DASHBOARD"      : "https://staging-gold.paisabazaar.com/digital-gold",
+        "PAST_APPLICATION_ENABLE"     : true,
+        "RECENT_SEARCH_ENABLE"        : true,
+        "CREDIT_CARD_URL"             : "https://v2.paisabazaar.com/cards",
+        "PERSONAL_LOAN_URL"           : "https://personalloan.paisabazaar.com/personal-loan",
+        "BUSINESS_LOAN_URL"           : "https://www.paisabazaar.com/business-loan",
+        "MUTUAL_FUND_URL"             : "https://mutualfund.paisabazaar.com/mf-onboard",
+        "SAVINGS_URL"                 : "https://www.paisabazaar.com/savings-account",
+        "HOME_LOAN_URL"               : "https://www.paisabazaar.com/home-loan",
+        "GOLD_LOAN_URL"               : "https://www.paisabazaar.com/gold-loan",
+        "LOAN_AGAINST_PROP_URL"       : "https://www.paisabazaar.com/loan-against-property",
+        "CAR_LOAN"                    : "https://www.paisabazaar.com/car-loan",
+        "FREE_TAX_FILING"             : "https://www.paisabazaar.com/tax-filing",
+        "UTM_SOURCE"                  : "pb_header_signin",
+        "UTM_SOURCE_VETO"             : "pb_header_signin_veto"
+    },
+    "FORGOT_PAN"                                : "https://portal.incometaxindiaefiling.gov.in/e-Filing/Services/KnowYourPanLinkGS.html?lang=eng",
+    "REFERRAL_TRACKING_PIXEL_LINK"              : "https://www.ref-r.com/campaign/t1/settings?bid_e=01866697735DACC133EF64CCBA04BCE9&bid=8945&t=420&event=register",
+    "SINGLE_APP_DOWNLOAD_LINK"                  : "https://paisabazaarapp.onelink.me/qcrE?pid=BU_DownloadOnApp&c=Bureau",
+    "STPL_CASHE_LINK"                           : "https://app.appsflyer.com/co.tslc.cashe.android?pid=paisabazaar&c=paisabazaar23",
+    "STPL_EARLY_SALARY_LINK_FACEBOOK"           : "http://bit.ly/2FeaRTu",
+    "STPL_EARLY_SALARY_LINK"                    : "http://bit.ly/2GRPpAX",
+    "STPL_CASHE_LINK_FACEBOOK"                  : "http://hyperurl.co/iw4m37",
+    "PAISA_TAX_BASE_URL"                        : "https://tax.paisabazaar.com",
+    "MYACCOUNT_IMAGE_PATH"                      : "https://myaccount.paisabazaar.com/components/images/my_account/",
+    "TAX_SMILE_TERMS"                           : "https://www.taxsmile.com/ReturnFiling/TaxSmile/Pages/popup/Terms_of_Service_popup.htm",
+    "TERM_OF_USE"                               : "https://www.paisabazaar.com/terms-of-use/",
+    "PAISA_HOME"                                : "https://www.paisabazaar.com/",
+    "OLD_MY_ACCOUNT_URL"                        : "https://myaccount.paisabazaar.com/my-account",
+    "Credit_Score_TnC_URL"                      : "https://myaccount.paisabazaar.com/credit_report-terms-of-use/",
+    "IMAGE_DOMAIN"                              : "https://static.paisabazaar.com",
+    "MARQUEE_ANCHOR_LINK"                       : "https://tax.paisabazaar.com/tax-filing",
+    "CIBIL_DISPUTE_LINK"                        : "https://www.cibil.com/dispute/",
+    "CREDIT_PRO_ENABLE_V2"                      : true,
+    "MARQUEE_ENABLE"                            : false,
+    "CREDIT_ADVISORY_ENABLE"                    : true,
+    "CREDIT_POWER_ENABLE"                       : false,
+    "CREDIT_SAVINGS_ENABLE"                     : true,
+    "CREDIT_PRO_ENABLE"                         : true,
+    "CREDIT_PRO_ADD_ON_ENABLE"                  : true,
+    "REDIRECT_DOWNLOAD_REPORT_TO_APP_DOWNLOAD"  : false,
+    "BUREAU_APPLY_IN_BACKGROUND"                : false,
+    "CARD_VIEW"                                 : true,
+    "ENABLE_SELECT_BOX_ON_MOBILE"               : false,
+    "CC_POPUP_FLAG"                             : true,
+    "GLOBAL_DASHBOARD_POPUP_FLAG"               : true,
+    "PROFILE_SEMIMASK_FIELD"                    : true,
+    "ADVISOR_PRICE_SLASHED"                     : true,
+    "CREDIT_ADVISOR_SCORE"                      : 700,
+    "BUREAU_MINIMUM_SCORE"                      : 20,
+    "XSELL_BANNER_VERSION"                      : 4,
+    "ADVISOR_PAYMENT_AMOUNT"                    : 399,
+    "ADVISOR_ACTUAL_AMOUNT"                     : 499,
+    "ADVISOR_PAYMENT_CHECKOUT"                  : false,
+    "PAYTM_PAYMENT_ENABLE"                      : true,
+    "LOGGED_IN_CUSTOMERS_REPORT_REFRESH_VALIDITY" : 2,
+    "ADVISOR_PAYMENT_VISIBLE_OPTIONS"           : {
+        "card"      : true,
+        "wallet"    : false,
+        "netbanking": false,
+        "upi"       : false
+    },
+    "ANALYTICS"                                 : {
+        "maxCountOfEvents"              : 5,
+        "timeIntervalBetweenTrackCalls" : 10
+    },
+    "ADVISOR_ADDITIONAL_PLAN_AMOUNT"            : 199,
+    "scoreBandV2"   : true,
+    "advisoryAddOnPackCreditAssist"             : true,
+    "HIDE_FAQ_TESTIMONIAL_SECTIONS_CREDIT_ADVISOR"  : true,
+    "BRANCH_IO_KEY"                             : "key_test_adC1bpZdEZlOIb16XVRWfjcfEDc3l9sa",
+    "VOUCHER_CODE"                              : "REWARD25",
+    "REWARD_BALANCE_REFRESH_DAY"                : 3,
+    "BRANCH_DESKTOP_URL"                        : "https://creditreport.paisabazaar.com/credit-report/apply?utm_source=Loyalty&utm_medium=web",
+    "BRANCH_ANDROID_URL"                        : "https://paisabazaar.app.link/LPfssQwYWT",
+    "BRANCH_IOS_URL"                            : "https://itunes.apple.com/in/app/paisabazaar-com-loans-cards/id1029403201?mt=8",
+    "PB_PAYTM_GATEWAY"                          : {
+        "SWITCH"                          : true,
+        "CAMPAIGN_SWITCH"                 : true,
+        "PAYMENT_URL"                     :  "https://paymentqa.policybazaar.com/pay/payment/initiate/transaction",
+        "RESPONSE_REDIRECTION_URL"        :  "http://localhost:8095/"
+    },
+    "DISABLE_CREDIT_ASSIST_PAYMENT_METHODS" : true,
+    "SHOW_ADD_ON_AS_POP_UP_CREDIT_ASSIST"   : false,
+    "SHOW_TICKR_CREDIT_ASSIST"              : true,
+    "SHOW_TAX_MARQUEE"                      : false,
+    "SHOW_NEW_TAX_FILING"                   : true,
+    "ADVISOR_PAYMENT_CHECKOUT_EXPERIMENT" : {
+        "DISABLE"                       : true,
+        "NETBANKING"                    : {
+            "DISABLE_START_TIME"        : "2019-09-02 00:00:00",
+            "DISABLE_END_TIME"          : "2019-09-02 23:59:59"
+        },
+        "PAYTM"                         : {
+            "DISABLE_START_TIME"        : "2019-09-04 00:00:00",
+            "DISABLE_END_TIME"          : "2019-09-04 23:59:59"
+        }
+    },
+    "PAISA_PAYMENT_GATEWAY"                          : {
+        "SWITCH"                          :  false,
+        "CAMPAIGN_SWITCH"                 :  false,
+        "PAYMENT_URL"                     :  "https://staging-pay.paisabazaar.com/pg/payment/initiate",
+        "RESPONSE_REDIRECTION_URL"        :  "http://localhost:8095/"
+    },
+    "MYACCOUNT_LINKS": {
+        "HOMEPAGE": "https://www.paisabazaar.com/",
+        "MY_ACCOUNT": "https://creditreport.paisabazaar.com/my-account/dashboard",
+        "CREDIT_CARD": "https://www.paisabazaar.com/cards",
+        "CREDIT_SCORE": "https://creditreport.paisabazaar.com/bureau/report-analysis",
+        "PERSONAL_LOAN": "https://personalloan.paisabazaar.com/personal-loan/",
+        "BUSINESS_LOAN": "https://www.paisabazaar.com/business-loan/",
+        "MICRO_LOAN": "https://personalloan.paisabazaar.com/short-term-loans",
+        "HOME_LOAN": "https://www.paisabazaar.com/home-loan/",
+        "LAP": "https://www.paisabazaar.com/loan-against-property/",
+        "HLBT": "https://www.paisabazaar.com/home-loan-balance-transfer/",
+        "MUTUAL_FUND": "https://mf.paisabazaar.com/direct-mutual-funds/Dashboard",
+        "FIXED_DEPOSIT": "https://www.paisabazaar.com/fixed-deposit/",
+        "NPS": "https://www.paisabazaar.com/saving-schemes/national-pension-system/",
+        "SAVINGS": "https://www.paisabazaar.com/savings-account/",
+        "DIGITAL_GOLD": "https://www.paisabazaar.com/digital-gold/",
+        "LIFE_INSURANCE": "https://www.paisabazaar.com/life-insurance/",
+        "HEALTH_INSURANCE": "https://www.paisabazaar.com/health-insurance/",
+        "FINANCIAL": "https://www.paisabazaar.com/financial-tools-calculators/",
+        "IFSC": "https://www.paisabazaar.com/ifsc-code/",
+        "ITR": "https://www.paisabazaar.com/tax/income-tax-return/",
+        "Aadhaar": "https://www.paisabazaar.com/aadhar-card/",
+        "PAN": "https://www.paisabazaar.com/pan-card/",
+        "PPF": "https://www.paisabazaar.com/saving-schemes/ppf/",
+        "EPF": "https://www.paisabazaar.com/saving-schemes/epf/",
+        "INCOME_TAX": "https://www.paisabazaar.com/tax/income-tax/",
+        "BANKING": "https://www.paisabazaar.com/banking/",
+        "CREDIT_AND_CIBIT_REPORT": "https://www.paisabazaar.com/credit-score/",
+        "CIBIL_CREDIT_REPORT": "https://www.paisabazaar.com/cibil-credit-report/",
+        "androidStore":"https://play.google.com/store/apps/details?id=com.paisabazaar",
+        "iosStore":"https://apps.apple.com/in/app/paisabazaar-com-loans-cards/id1029403201"
+    },
+    "REWARD_LINKS":{
+        "TNC" :"http://staging-homepage.paisabazaar.com/paisa-rewards/terms-and-conditions/"
+    },
+    "FORCE_LOGOUT_TIME_IN_MINUTES"                : 30,
+    "XFRAME_WHITELIST_APP_SOURCE" : [ "sonyliv.com", "com.sonyliv"],
+    "DOWNLOAD_REPORT_MULTIPLE_LANGUAGES" :{
+        "SWITCH": true,
+        "MOBILE_NUMBERS": ["7503688903", "7842123867"]
+    },
+    "DISPLAY_TERMS_AND_CONDITIONS": false,
+    "SONY_LIV" : {
+        "SOURCE"    : "sonyliv",
+        "VISIT_ID"  : "41131748-3b3b-4357-845e-f5edd438b009"
+    },
+    "SHOW_NEFT_CHEQUE_ON_SCORE_PLUS_PAYMENT_OPTIONS" : true,
+    "SHOW_TNC_BANNER": true,
+    "VERNACULAR_SUPPORT": {
+        "SWITCH": true,
+        "MOBILE_NUMBERS": ["7503688903", "7842123867", "7838495494", "9916823685", "7506028188", "9810390072",
+                        "9999656437", "9999828046", "9811646092", "8287044781", "9650088297", "9650003436", "8800271444",
+                        "9968365835", "9650046782", "9811148670", "7303890404", "9620016773"]
+    },
+    "MULTI_LANGUAGE_SUPPORT": {
+        "STATUS": true,
+        "MOBILE_NUMBERS": ["7503688903", "7842123867", "7838495494", "9916823685", "7506028188", "9810390072",
+            "9999656437", "9999828046", "9811646092", "8287044781", "9650088297", "9650003436", "8800271444",
+            "9968365835", "9650046782", "9811148670", "7303890404", "9620016773","8968065278",
+            "9780381371","9970163284","9910001166","9871098007","9769160172","9711850449","7875533889","9654886714",
+            "9821108823","9999328288","9641701686","9899009720","9811520336","7387134059","9810376424"]
+    },
+    "RECTIFICATION_PB_PAYTM_GATEWAY" : {
+        "SWITCH"                          :  true,
+        "PAYMENT_URL"                     :  "https://paymentqa.policybazaar.com/pay/payment/initiate/transaction",
+        "RESPONSE_REDIRECTION_URL"        :  "http://localhost:8095/bureau/report-analysis"
+    },
+    "PAYMENT_SYSTEM" : {
+        "COMMON_PG" : {
+            "CREDIT_ASSIST" : true, 
+            "CREDIT_RECTIFICATION" : true
+        }
+    },
+    "rectificationCampaign" : {
+        "withGST" : true,
+        "paymentPlanWithGST": {
+            "planName": "ALL_ACCOUNTS_WITH_GST",
+            "baseAmount": 899,
+            "totalAmount": 1061,
+            "taxAmount": 162,
+            "tax" : 18
+        },
+        "paymentPlanWithoutGST": {
+            "planName": "ALL_ACCOUNTS",
+            "totalAmount": 899
+        }
+    },
+    "ADVISORY_CAMPAIGN": {
+        "WITH_GST"   : true,
+        "PAYMENT_PLAN_WITH_GST" : {
+                "planType" : "Basic_Plan_With_Tax",
+                "advisoryService" : 399,
+                "additionalCall" : 0,
+                "GST" : 18,
+                "taxAmount" : 72,
+                "totalAmount" : 471
+            }
+    },
+    "BUREAU_DOMAIN"       : "http://localhost:8095",
+    "SHOW_GST_BREAK_UP_CREDIT_ASSIST" : true,
+    "MF_E_CAS_POC_ACTIVE" : false,
+    "MF_ECAS_REDIRECTION_LINK"  : "https://stagingmfapi.paisabazaar.com/",
+    "MF_ECAS_API_ENDPOINT"      : "https://stagingmfapi.paisabazaar.com/SF/api/v1/cas/prepare-cas",
+    "PB_GLSS_TOKEN"             : "PB_GLSS_TOKEN",
+    "BUREAU_REDIRECT_URI"       : "https://creditreport.paisabazaar.com",    
+    "SHOW_CORONAVIRUS_BANNER" : true,
+    "CREDIT_ASSIST_CARD_LIMITED_PERIOD_DISCOUNT" : true,
+    "APP_INSTALL_LUCKY_DRAW_CAMPAIGN" : {
+        "FLAG"  : true,
+        "APP_DOWNLOAD_LINK_LEFT_HAMBURGER_MENU" : "https://paisabazaarapp.onelink.me/qcrE/42de5267",
+        "APP_DOWNLOAD_LINK_STICKY_HEADER" : "https://paisabazaarapp.onelink.me/qcrE/c440a46",
+        "APP_DOWNLOAD_LINK_MY_ACCOUNTS_DASHBOARD" : "https://paisabazaarapp.onelink.me/qcrE/909c6236",
+        "APP_DOWNLOAD_LINK_BUREAU_DASHBOARD" : "https://paisabazaarapp.onelink.me/qcrE/a147121b"
+    },
+    "DISPLAY_FACTORS_NEW_DESIGN" : true,
+    "CHR_DROP_OFF_COMM_REDIRECTION_LINK" : "https://paisabazaar.app.link/e/7CpCSyoXT4",
+    "DISABLE_INSURANCE_OFFER_CAROUSEL"  : true,
+    "CIBIL_REAPPLY_FLAG"                : false,
+    "MY_ACCOUNT_PUCKAR_CONTRACT_ID" : "8ed8e503-de76-452a-97f9-7955c86180e3",
+    "PL_CASHBACK_OFFER_STATUS": false,
+    "CC_CASHBACK_OFFER_STATUS": false,
+    "SHORT_AUTH_POC" : {
+        "FLAG"  : true,
+        "START_DATE" : "2021-10-28",
+        "END_DATE" : "2021-10-29"
+    },
+    "IS_NEW_BL_POST_CLICK_JOURNEY_ENABLE" : false,
+    "ENABLE_CC_PCO_MORE_DETAIL" : true,
+    "SECURITY": {
+        "DISCOUNT_VOUCHER_ENCODE_PARAMS" : {
+            "KEY": "2dd6f03e0437140155e03bf502b5fe25",
+            "IV" : "f2dea8ce10775a72"
+        }
+    },
+    "MOBILE_APP_DOWNLOAD_BANNER_ON_APPLY_POC" : {
+        "FLAG"  : false
+    },
+    "FINVU_CIBIL_SCORE_CUT_OFF": 700,
+    "PL_UNSECURED_SP_SYSTEM" : "https://staging-api-internal.paisabazaar.com/USSP",
+    "IDFC_LINE" : {
+        "PRODUCT_ID" : 4,
+        "BANK_ID" : "417",
+        "GET_FULL_DATA" : 1,
+        "IDFC_LINE_REDIRECT_URL" : "https://staging-api-external.paisabazaar.com/personal-loan/credit-line/417/"
+    },
+    "IS_REAPPLY_BUREAU_ENABLED": true,
+    "PLBT_APPLY_FORM" : false,
+    "IMAGE_HOST" : "https://static.paisabazaar.com/media/",
+    "PBGUC_SWITCH" : false
+}
